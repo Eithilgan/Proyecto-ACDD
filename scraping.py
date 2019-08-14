@@ -1,14 +1,14 @@
 #Librerías para hacer scraping
 from bs4 import BeautifulSoup
-import urllib.request
+import urllib2 as urllib
 import re
 
 #Pagina a escanear
 url = "https://en.wikipedia.org/wiki/Artificial_intelligence"
-page = urllib.request.urlopen(url)
+page = urllib.urlopen(url)
 
 try:
-	page = urllib.request.urlopen(url)
+	page = urllib.urlopen(url)
 except:
 	print("Error")
 soup = BeautifulSoup(page,"html.parser")
