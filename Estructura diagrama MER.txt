@@ -1,0 +1,154 @@
+//COLECCION: LEGISLATURAS
+//	DOCUMENTO:LEGISLATURA
+{
+	legislatura{
+		id:int,
+		numero:int,
+		tipo: int,
+		fecha_inicio:datetime,
+		fecha_termino:datetime
+	}
+}
+
+//COLECCION: BOLETIN (TAL VEZ PODRIAMOS NOMBRARLO COMO SESIÓN, TENEMOS QUE VERLO)
+{
+	//DOCUMENTO SESION
+	sesion{
+		numero: int,
+		fecha_inicio: datetime,
+		fecha_termino: datetime,
+		tipo: "ordinaria/extraordinaria",
+		portada{
+
+			//Aquí parte por declarar: "Republica de Chile", seguido por la camara bajo la
+			//cual se está trabajando. Luego describe el numero,fecha y hora de la sesión,
+			//el tipo (ordinaria por ej.), declara pte de la camara, secretario etc...
+			//TODO ESTO SEPARADO POR "<br>".
+		},
+		//DOCUMENTO INDICE
+		indice{
+			puntos:string
+			//Muestra en numeros romanos (I,II,II ...) los temas a tratar en la sesion
+			//TODO ESTO SEPARADO POR "<br>".
+		},
+		//DOCUMENTO ASISTENCIA
+		asistencia{
+			//Aquí se muestran los diputados asistentes (Diputado, partido, asistencia, obs, hora ingreso)
+			//Ademas de asistentes extraordinarios
+			//TODO ESTO SEPARADO POR "<br>".
+			numero_asistentes:int,
+			comentario:string,
+
+			//DOCUMENTO: DIPUTADO
+			diputado{
+				nombre:string,
+				partido:string,
+				observacion:string,
+				hora_ingreso:datetime
+			}
+			
+		},
+		//DOCUMENTO APERTURA
+		apertura{
+			//Se indica la hora de apertura de la sesión, y quien la abre
+			//TODO ESTO SEPARADO POR "<br>".
+			comentario:string
+		},
+		//DOCUMENTO ACTA
+		acta{
+			//se declara la aprobacion del acta, describiendo el numero de esta y el nombre del presidente en ejercicio de la camara
+			//TODO ESTO SEPARADO POR "<br>".
+			comentario:string
+		},
+		//DOCUMENTO:CUENTA
+		cuenta{
+			//Aquí se hace una lectura de la cuenta
+			//TODO ESTO SEPARADO POR "<br>".
+
+			//DOCUMENTO:OTRO
+			otro{
+				titulo:string
+				comentario: string
+			}
+		},
+		//DOCUMENTO: ORDEN DEL DÍA
+		orden_dia{
+			//DOCUMENTO:PROYECTO DE LEY
+			proyecto_ley{
+				//DOCUMENTO:BOLETÍN
+				boletin:int,
+				titulo:string,      //Titulo del proyecto, antecedentes. TODO ESTO SEPARADO POR "<br>".
+				antecedentes:string,
+
+				//DOCUMENTO:INTERVENCION DE DIPUTADO
+				intervencion_diputado{
+					id_diputado:int,
+					nom_diputado,
+					data:string
+				},
+
+				//DOCUMENTO: VOTACIÓN
+				votacion{
+
+					resultado:"Aprobado/Desaprobado",
+					comentario:string, //Se realiza comentario final de proyecto de ley TODO ESTO SEPARADO POR "<br>".
+
+					a_favor{//DOCUMENTO
+						//Nombres de los diputados separados por <BR>
+					},
+					dispensados{//DOCUMENTO 
+						//Nombres de los diputados separados por <BR>
+					},
+					abstencion{//DOCUMENTO
+						//Nombres  de los diputadosseparados por <BR>
+					},
+					en_contra{//DOCUMENTO
+						//Nombres de los diputados separados por <BR>
+					}
+				}
+				
+				//DOCUMENTO:OTRO
+				otro{
+					//Este apartado se usa por ejemplo para saludar a alguna de delegación que esté de visita
+					titulo:string,
+
+					//DOCUMENTO:INTERVENCION DE DIPUTADO
+					intervencion_diputado{
+						id_diputado:int,
+						nom_diputado,
+						data:string
+					}
+
+				}
+			},
+		},
+		//DOCUMENTO:HORA INCIDENTES
+		hora_incidentes{
+			//Aquí se hace un resumen de las intervenciones de diputados y diputadas
+			comentario:string,
+			//DOCUMENTO:INTERVENCIÓN DE DIPUTADO
+			intervencion_diputado{
+				id_diputado:int,
+				nom_diputado,
+				data:string
+			}
+		},
+		//DOCUMENTO:FIN DE SESIÓN
+		fin_sesion{
+			//Se describe hora de término de la sesión
+			//quien la terminó y su cargo
+			//TODO SEPARADO POR <BR>
+			hora:time
+		},
+		//DOCUMENTO:ANEXO DE SESIÓN
+		anexo_sesion{
+			comentario:string,
+			//DOCUMENTO:INTERVENCIÓN DE DIPUTADO
+			intervencion_diputado{
+				id_diputado:int,
+				nom_diputado,
+				data:string
+			}
+		}
+	}
+}
