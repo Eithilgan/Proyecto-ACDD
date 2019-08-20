@@ -1,5 +1,5 @@
-//COLECCION: LEGISLATURAS
-//	DOCUMENTO:LEGISLATURA
+
+//	COLECCION:LEGISLATURA
 {
 	legislatura{
 		id:int,
@@ -9,10 +9,8 @@
 		fecha_termino:datetime
 	}
 }
-
-//COLECCION: BOLETIN (TAL VEZ PODRIAMOS NOMBRARLO COMO SESI”N, TENEMOS QUE VERLO)
 {
-	//DOCUMENTO SESION
+	//COLECCION SESION
 	sesion{
 		numero: int,
 		fecha_inicio: datetime,
@@ -20,26 +18,26 @@
 		tipo: "ordinaria/extraordinaria",
 		portada{
 
-			//AquÌ parte por declarar: "Republica de Chile", seguido por la camara bajo la
-			//cual se est· trabajando. Luego describe el numero,fecha y hora de la sesiÛn,
+			//Aqu√≠ parte por declarar: "Republica de Chile", seguido por la camara bajo la
+			//cual se est√° trabajando. Luego describe el numero,fecha y hora de la sesi√≥n,
 			//el tipo (ordinaria por ej.), declara pte de la camara, secretario etc...
 			//TODO ESTO SEPARADO POR "<br>".
 		},
-		//DOCUMENTO INDICE
+		//COLECCION INDICE
 		indice{
 			puntos:string
 			//Muestra en numeros romanos (I,II,II ...) los temas a tratar en la sesion
 			//TODO ESTO SEPARADO POR "<br>".
 		},
-		//DOCUMENTO ASISTENCIA
+		//COLECCION ASISTENCIA
 		asistencia{
-			//AquÌ se muestran los diputados asistentes (Diputado, partido, asistencia, obs, hora ingreso)
+			//Aqu√≠ se muestran los diputados asistentes (Diputado, partido, asistencia, obs, hora ingreso)
 			//Ademas de asistentes extraordinarios
 			//TODO ESTO SEPARADO POR "<br>".
 			numero_asistentes:int,
 			comentario:string,
 
-			//DOCUMENTO: DIPUTADO
+			//COLECCION: DIPUTADO
 			diputado{
 				nombre:string,
 				partido:string,
@@ -48,71 +46,71 @@
 			}
 			
 		},
-		//DOCUMENTO APERTURA
+		//COLECCION APERTURA
 		apertura{
-			//Se indica la hora de apertura de la sesiÛn, y quien la abre
+			//Se indica la hora de apertura de la sesi√≥n, y quien la abre
 			//TODO ESTO SEPARADO POR "<br>".
 			comentario:string
 		},
-		//DOCUMENTO ACTA
+		//COLECCION ACTA
 		acta{
 			//se declara la aprobacion del acta, describiendo el numero de esta y el nombre del presidente en ejercicio de la camara
 			//TODO ESTO SEPARADO POR "<br>".
 			comentario:string
 		},
-		//DOCUMENTO:CUENTA
+		//COLECCION:CUENTA
 		cuenta{
-			//AquÌ se hace una lectura de la cuenta
+			//Aqu√≠ se hace una lectura de la cuenta
 			//TODO ESTO SEPARADO POR "<br>".
 
-			//DOCUMENTO:OTRO
+			//COLECCION:OTRO
 			otro{
 				titulo:string
 				comentario: string
 			}
 		},
-		//DOCUMENTO: ORDEN DEL DÕA
+		//COLECCION: ORDEN DEL D√çA
 		orden_dia{
-			//DOCUMENTO:PROYECTO DE LEY
+			//COLECCION:PROYECTO DE LEY
 			proyecto_ley{
-				//DOCUMENTO:BOLETÕN
+				//COLECCION:BOLET√çN
 				boletin:int,
 				titulo:string,      //Titulo del proyecto, antecedentes. TODO ESTO SEPARADO POR "<br>".
 				antecedentes:string,
 
-				//DOCUMENTO:INTERVENCION DE DIPUTADO
+				//COLECCION:INTERVENCION DE DIPUTADO
 				intervencion_diputado{
 					id_diputado:int,
 					nom_diputado,
 					data:string
 				},
 
-				//DOCUMENTO: VOTACI”N
+				//COLECCION: VOTACI√ìN
 				votacion{
 
 					resultado:"Aprobado/Desaprobado",
 					comentario:string, //Se realiza comentario final de proyecto de ley TODO ESTO SEPARADO POR "<br>".
 
-					a_favor{//DOCUMENTO
+					a_favor{//COLECCION
 						//Nombres de los diputados separados por <BR>
 					},
-					dispensados{//DOCUMENTO 
+					dispensados{//COLECCION 
 						//Nombres de los diputados separados por <BR>
 					},
-					abstencion{//DOCUMENTO
+					abstencion{//COLECCION
 						//Nombres  de los diputadosseparados por <BR>
 					},
-					en_contra{//DOCUMENTO
+					en_contra{//COLECCION
 						//Nombres de los diputados separados por <BR>
 					}
 				}
 				
-				//DOCUMENTO:OTRO
+				//COLECCION:OTRO
 				otro{
-					//Este apartado se usa por ejemplo para saludar a alguna de delegaciÛn que estÈ de visita
+					//Este apartado se usa por ejemplo para saludar a alguna de delegaci√≥n que est√© de visita
 					titulo:string,
 
-					//DOCUMENTO:INTERVENCION DE DIPUTADO
+					//COLECCION:INTERVENCION DE DIPUTADO
 					intervencion_diputado{
 						id_diputado:int,
 						nom_diputado,
@@ -122,28 +120,28 @@
 				}
 			},
 		},
-		//DOCUMENTO:HORA INCIDENTES
+		//COLECCION:HORA INCIDENTES
 		hora_incidentes{
-			//AquÌ se hace un resumen de las intervenciones de diputados y diputadas
+			//Aqu√≠ se hace un resumen de las intervenciones de diputados y diputadas
 			comentario:string,
-			//DOCUMENTO:INTERVENCI”N DE DIPUTADO
+			//COLECCION:INTERVENCI√ìN DE DIPUTADO
 			intervencion_diputado{
 				id_diputado:int,
 				nom_diputado,
 				data:string
 			}
 		},
-		//DOCUMENTO:FIN DE SESI”N
+		//COLECCION:FIN DE SESI√ìN
 		fin_sesion{
-			//Se describe hora de tÈrmino de la sesiÛn
-			//quien la terminÛ y su cargo
+			//Se describe hora de t√©rmino de la sesi√≥n
+			//quien la termin√≥ y su cargo
 			//TODO SEPARADO POR <BR>
 			hora:time
 		},
-		//DOCUMENTO:ANEXO DE SESI”N
+		//COLECCION:ANEXO DE SESI√ìN
 		anexo_sesion{
 			comentario:string,
-			//DOCUMENTO:INTERVENCI”N DE DIPUTADO
+			//COLECCION:INTERVENCI√ìN DE DIPUTADO
 			intervencion_diputado{
 				id_diputado:int,
 				nom_diputado,
