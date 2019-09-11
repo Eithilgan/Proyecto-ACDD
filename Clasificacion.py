@@ -28,7 +28,7 @@ def read_all_documents(root):
             labels.append(r.replace(root, ''))
     return dict([('docs', docs), ('labels', labels)])
 #____________________________________________________________#
-data = read_all_documents('C:\xampp\htdocs\Proyecto ACDD\Proyecto-ACDD\Palabras_claves')
+data = read_all_documents('\Palabras_claves')
 documents = data['docs']
 labels = data['labels']
 #____________________________________________________________#
@@ -43,7 +43,7 @@ from sklearn.neighbors import KNeighborsClassifier
 clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(X_train, y_train)
 #____________________________________________________________#
-test = read_all_documents('examples2')
+test = read_all_documents('\Documento')
 X_test = tfid.transform(test['docs'])
 y_test = test['labels']
 pred = clf.predict(X_test)
