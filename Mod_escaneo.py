@@ -1,5 +1,18 @@
 # -*- coding: utf-8 -*-
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+
+
+
+#____________________Palabras descartadas________________#
+prepositions =['a','del','ante','bajo','cabe','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
+prep_alike = ['durante','mediante','excepto','salvo','incluso','más','menos']
+adverbs = ['no','si','sí']
+articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas']
+aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
+
+tfid = TfidfVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
 #____________________Conteo de palabras__________________#
 # lista de documentos de texto
@@ -16,6 +29,7 @@ vector = vectorizer.transform(text)
 print(vector.shape)
 print(type(vector))
 print(vector.toarray())
+
 
 
 #___________________Estructura Json_____________________#
