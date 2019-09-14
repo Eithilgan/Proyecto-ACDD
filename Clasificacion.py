@@ -4,7 +4,6 @@ Created on Wed Sep 11 11:37:58 2019
 
 @author: Ezxiio
 """
-import sklearn
 import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,18 +22,18 @@ def read_all_documents(root):
     docs = []
     for r, dirs, files in os.walk(root):
         for file in files:
-            with open(os.path.join(r, file), "r") as f:
-                docs.append(f.read())     
+            with open(os.path.join(r, file), "r",encoding="latin-1") as f:
+                docs.append(f.read())
             labels.append(r.replace(root, ''))
     return dict([('docs', docs), ('labels', labels)])
+
 #____________________________________________________________#
-data = read_all_documents('\Palabras_claves')
+data = read_all_documents('C:\\xampp\htdocs\\Proyecto ACDD\\Proyecto-ACDD\\Palabras_claves')
 documents = data['docs']
 labels = data['labels']
 #____________________________________________________________#
 
 from sklearn.feature_extraction.text import TfidfVectorizer
-
 X_train = tfid.fit_transform(documents)
 y_train = labels
 #____________________________________________________________#
@@ -42,11 +41,12 @@ from sklearn.neighbors import KNeighborsClassifier
 
 clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(X_train, y_train)
+
 #____________________________________________________________#
-test = read_all_documents('\Documento')
+test = read_all_documents('C:\\xampp\\htdocs\\Proyecto ACDD\\Proyecto-ACDD\\Documento')
 X_test = tfid.transform(test['docs'])
 y_test = test['labels']
 pred = clf.predict(X_test)
+print (pred)
 
 print('accuracy score %0.3f' % clf.score(X_test, y_test))
-
