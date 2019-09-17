@@ -36,7 +36,7 @@ labels = data['labels']
 from sklearn.feature_extraction.text import TfidfVectorizer
 X_train = tfid.fit_transform(documents)
 y_train = labels
-#____________________________________________________________#|||||||
+#____________________________________________________________#
 from sklearn.neighbors import KNeighborsClassifier
 
 clf = KNeighborsClassifier(n_neighbors=3)
@@ -47,6 +47,12 @@ test = read_all_documents('C:\\xampp\\htdocs\\Proyecto ACDD\\Proyecto-ACDD\\Docu
 X_test = tfid.transform(test['docs'])
 y_test = test['labels']
 pred = clf.predict(X_test)
-print (pred)
+for i in range(len(test['labels'])):
+    print("Sesion N°"+str(i))
+    print (test['labels'][i])
+    print(pred[i])
+    print("----------------------------")
+    
+
 
 print('accuracy score %0.3f' % clf.score(X_test, y_test))
