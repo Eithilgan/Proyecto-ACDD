@@ -14,6 +14,7 @@ adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
 
+
 tfid = TfidfVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
 
