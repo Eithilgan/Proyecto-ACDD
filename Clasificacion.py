@@ -36,7 +36,7 @@ labels = data['labels']
 from sklearn.feature_extraction.text import TfidfVectorizer
 X_train = tfid.fit_transform(documents)
 y_train = labels
-#____________________________________________________________#
+#____________________________________________________________#|||||||
 from sklearn.neighbors import KNeighborsClassifier
 
 clf = KNeighborsClassifier(n_neighbors=3)
