@@ -6,7 +6,6 @@ from proyecto import *
 from boletin import *
 from votaciones import *
 from detalle import *
-from file import *
 
 LegID    = getLegislaturaActual()
 a_sesion = getSesiones(LegID)
@@ -40,8 +39,8 @@ while(True):
     while(getVotaciones(str(boletin))==""):
         boletin=input("# Error! No hay votaciones para este boletin o está mal ingresado\n Ingrese ID de boletin nuevamente:")    
     print("\n****VOTACIONES EN BOLETIN ",boletin,":",getVotaciones(str(boletin)),"****")
-    print(aProyecto)
-    print(boletin)
+    #print(aProyecto)
+    #print(boletin)
     
 
     votacion=input("\n-Obtener resultado a partir de ID de votacion:")
