@@ -1,4 +1,4 @@
-economía
+﻿economía
 fomento
 consumidores
 cartera
@@ -27,4 +27,5 @@ peso
 sector financiero
 moneda
 recaudación
+sernatur
 

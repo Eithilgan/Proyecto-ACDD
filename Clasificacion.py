@@ -13,9 +13,10 @@ prep_alike = ['durante','mediante','excepto','salvo','incluso','más','menos']
 adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
+pronouns = ['yo', 'tú', 'él', 'nosotros', 'ustedes', 'ellos', 'que', 'quien', 'me', 'mi', 'su']
 
 
-tfid = TfidfVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
+tfid = TfidfVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs+pronouns)
 
 
 def read_all_documents(root):
@@ -29,7 +30,7 @@ def read_all_documents(root):
     return dict([('docs', docs), ('labels', labels)])
 
 #____________________________________________________________#
-data = read_all_documents('C:\\xampp\htdocs\\Proyecto ACDD\\Proyecto-ACDD\\Palabras_claves')
+data = read_all_documents('C:\\xampp\\htdocs\\Proyecto-ACDD\\Palabras_claves')
 documents = data['docs']
 labels = data['labels']
 #____________________________________________________________#
@@ -44,7 +45,7 @@ clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(X_train, y_train)
 
 #____________________________________________________________#
-test = read_all_documents('C:\\xampp\\htdocs\\Proyecto ACDD\\Proyecto-ACDD\\Documento')
+test = read_all_documents('C:\\xampp\\htdocs\\Proyecto-ACDD\\Documento')
 X_test = tfid.transform(test['docs'])
 y_test = test['labels']
 pred = clf.predict(X_test)
