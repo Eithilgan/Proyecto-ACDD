@@ -1,7 +1,7 @@
-Trabajo
+﻿Trabajo
 Prevision social
-Laboral
-Trabajadores
+laboral
+trabajadores
 Sueldo
 Cesante
 Bono
@@ -15,3 +15,10 @@ Vulnerables
 Sistema previsional
 Inclusión
 Discapacidad
+contribuir 
+desarrollo 
+descanso 
+comercio 
+permiso 
+laborales
+
