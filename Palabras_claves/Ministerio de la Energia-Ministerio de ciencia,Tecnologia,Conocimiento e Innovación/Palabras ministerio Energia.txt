@@ -50,5 +50,6 @@
 50 cooprel
 51 emelca
 52 coopersol
-53
-54
+53 tecnologia
+54 ceular
+55 llamar
