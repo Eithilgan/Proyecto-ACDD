@@ -2,12 +2,12 @@ import lxml;   import requests
 from   bs4     import BeautifulSoup
 import urllib; import urllib.request; import urllib.parse
 
-#-Funcion que convierte URL en objeto BeautifulSoup
-#------------------------------EXPLICACION-----------------------------------------
-#Primero recibe una URL, la que a traves de la libreria URLLIB la abrirá
-#Despues Leera el contenido de ese objeto URLLIB
-#Luego, transforma ese objeto URLLIB en uno BeautifulSoup, indicando que estamos leyendo un XML
-#Finalmente, retorna ese objeto BeautifulSoup
+# Esta funcion convierte una URL en objeto BeautifulSoup - Recibe como parámetro el string de una URL
+# ----------------------------------------------- EXPLICACION -------------------------------------------------
+# Primero recibe una URL, la que a través de la librería URLLIB la abrirá
+# Después Leerá el contenido de ese objeto URLLIB a través de .obj.read()
+# Luego, transforma ese objeto URLLIB en un objeto BeautifulSoup, indicandole que estamos leyendo un XML
+# Finalmente, retorna ese objeto BeautifulSoup
 def soup(url):
     obj     = urllib.request.urlopen(url)      ## Retorna a una variable un objeto http.response 
     xml     = obj.read()                       ## Lee el contenido de ese objeto y lo almacena en una variable

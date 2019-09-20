@@ -8,18 +8,22 @@ from votaciones import *
 from detalle import *
 from bs4 import BeautifulSoup
 
+#######################################################################################################################
+#  ESTE SCRIPT CONTIENE TRES IMPORTANTES FUNCIONES QUE SE UTILIZAN PARA EXTRAER EL TEXTO DE UNA DISCUSIÓN PARLAMENTARIA
+#######################################################################################################################
 
+# Esta funcion retorna un arreglo con IDs de sesiones que están asociadas con un ID de boletin en partiuclar
+# Recibe como parametro un id de boletin, por ejemplo "11571-21"
 # ------------------------------------------ EXPLICACION ------------------------------------------
-#Esta funcion recibe como parametro un id de boletin, por ejemplo "11571-21"
-#Lo primero que hace es concatenar el id de boletin con la pagina de la camara
-#para acceder a la pagina de opendata, esta pagina contiene ID de votaciones y sesiones
-#Luego, convierte esa URL en un objeto BeautifulSoup.
-#una vez convertida la URL buscará si existe la etiqueta 'Votacion' (ya que a veces no existe votacion)
-#En caso de que si exista buscará todas las etiquetas de sesion y las guardará en un arreglo llamado aSesiones
+# Lo primero que hace es concatenar el id de boletin con la página de la cámara
+# para porder acceder a dicha página. Ésta página contiene IDs de votaciones y de sesiones (Solo necesitamos las sesiones)
+# Luego, convierte esa URL en un objeto BeautifulSoup.
+# una vez convertida la URL buscará si existe la etiqueta 'Votacion' (ya que a veces no existe votacion)
+# En caso de que si exista buscará todas las etiquetas de sesion y las guardará en un arreglo llamado aSesiones
 #                     Ejemplo: aSesiones = ['<id>3731</id>','<id>3732</id>']
-#Después, recorre ese arreglo de sesiones y guarda en una variable el atributo ID de dicha sesion, y también 
-#lo convierte en un objeto de tipo string, ya que era objeto de tipo BeautifulSoup.
-#le quita las etiquetas, y después lo guarda en el mismo arreglo. Entonces quedaría algo asi:
+# Después, recorre ese arreglo de sesiones y guarda en una variable el atributo ID de dicha sesion, y también 
+# lo convierte en un objeto de tipo string, ya que era objeto de tipo BeautifulSoup.
+# le quita las etiquetas, y después lo guarda en el mismo arreglo. Entonces quedaría algo asi:
 #                     Ejemplo: aSesiones = ['3731','3732']
 
 def getSesionesById(idboletin):
@@ -35,7 +39,7 @@ def getSesionesById(idboletin):
     return list(set(aSesiones))
 
 # ------------------------------------------ EXPLICACION ------------------------------------------
-# Esta funcion obtiene el dialogo que se da dentro de la etiqueta proyecto de ley
+# Esta funcion retorna una etiqueta con el dialogo que se da dentro de la etiqueta proyecto de ley
 # Es decir, lo que hay justo después de la etiqueta <PROYECTO_LEY> y antes de la etiqueta <VOTACION>
 # 
 # En primer lugar, la funcion recibe como parametro la etiqueta de un proyecto de ley
@@ -72,8 +76,9 @@ def getDialogo(tagProyecto):
     
 
 # ------------------------------------------ EXPLICACION ------------------------------------------
-# Esta funcion recibe como parametro el id de un boletin por ejemplo: "11571-21"
-# En primer lugar, llama a la funcion getSesionesById, la cual retorna un arreglo con todas las sesiones
+# Esta función no retorna cosa alguna. Se encarga de crear un archivo con la discusion parlamentaria asociada a un id de Boletin
+# Esta función recibe como parámetro el id de un boletin por ejemplo: "11571-21"
+# En primer lugar, llama a la función getSesionesById, la cual retorna un arreglo con todas las sesiones (Esta función está al comienzo de este script)
 # en las que se discute sobre el proyecto de ley al cual esta asociado ese id de boletin
 # Por ejemplo: ['3731','3763']
 
@@ -86,10 +91,11 @@ def getDialogo(tagProyecto):
 # y preguntará si el id de boletin se encuentra en ese string
 
 # Por ejemplo: if('3731' está en '<proyecto_ley boletin=11571-21...')
-# En caso de que sí esté,  llamará a la funcion getDialogo() la cual retornará un string con la discusion del proyecto que
-# se le pase como parámentro.
+# En caso de que no esté, no pasará nada. En caso de que sí esté,  llamará a la funcion getDialogo()
+# la cual retornará un string con la discusion del proyecto que se le pase como parámentro.
+# (Esta función está justo arriba, en este mismo script).
 # Después creará un archivo de texto con el string de la discusion parlamentaria
-# Ese string tendra el nombre del id de boletin y el id de la sesion
+# Ese archivo txt tendrá el nombre del id de boletin y el id de la sesion.
 
 def creaFile(idboletin):
     aSesion = getSesionesById(idboletin)
