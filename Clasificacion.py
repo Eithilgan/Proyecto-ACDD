@@ -14,7 +14,7 @@ prep_alike = ['durante','mediante','excepto','salvo','incluso','más','menos']
 adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
-pronouns = ['yo', 'tú', 'él', 'nosotros', 'ustedes', 'ellos', 'que', 'quien', 'me', 'mi', 'su']
+pronouns = ['yo', 'tú', 'él', 'nosotros', 'ustedes', 'ellos', 'que', 'quien', 'me', 'mi', 'su','niños','niñas','adolecentes','niño','niña','diputado','diputada','diputados','diputadas','intervencion','interviene']
 
 #TfidfVectorizer crea una matriz de tipo frecuencia de término – frecuencia inversa de documento 
 #(o sea, la frecuencia de ocurrencia del término en la colección de documentos)
@@ -42,7 +42,6 @@ documents = data['docs']
 labels = data['labels']
 #____________________________________________________________#
 X_train = tfid.fit_transform(documents)
-print (X_train)
 y_train = labels
 #____________________________________________________________#
 #KNeighborsClassifier(n_neighbors=3) es un metodo de clasificacion que asigna
@@ -54,8 +53,6 @@ clf.fit(X_train, y_train)
 #____________________________________________________________#
 test = read_all_documents('Documento')
 X_test = tfid.transform(test['docs'])
-print ("X_test")
-print (X_test)
 y_test = test['labels']
 pred = clf.predict(X_test)
 for i in range(len(test['labels'])):
