@@ -1,6 +1,6 @@
-from includes import * ; from sopa import    * ; from legislatura import * ; from sesiones import *
-from proyecto import * ; from boletin import * ; from votaciones import  *
-from detalle  import * ; from archivo import * ; from dialogo import     *
+from includes import * ; from sopa    import * ; from legislatura import * ; from sesiones import *
+from proyecto import * ; from boletin import * ; from votaciones  import *
+from detalle  import * ; from archivo import * ; from dialogo     import *
 
 LegID    = getLegislaturaActual()
 aSesion  = getSesiones(LegID)
@@ -30,7 +30,7 @@ aSesion  = getSesiones(LegID)
 #Finalmente, obtiene el resultado de la votacion, preguntando el ID de votacion del cual se desea saber el resultado
 #Para esto llama a la función getDetalle() , la cual retorna APROBADO/RECHAZADO, pasándo como parámetro un ID de votación
 #Posteriormente, imprime el resultado de la votación 
-aProyecto=[]; aBoletin=[]; aVotaciones=[]
+aProyecto = []; aBoletin = []; aVotaciones = []
 while(True):
     print("\n########################### SESIONES DE LA LEGISLATURA ACTUAL ###");print(aSesion);print("#################################################################\n")
 
