@@ -1,5 +1,5 @@
 from includes import *
-from sopa import *
+from sopa     import *
 
 # Esta función retorna el resultado (APROBADO o RECHAZADO) de una votación - Recibe como parámetro un id de votación
 # ---------------------------------------------- EXPLICACIÓN ----------------------------------------------

@@ -1,5 +1,5 @@
 from includes import *
-from sopa import *
+from sopa     import *
 
 # Esta funcion retorna los ID de cada una de las votaciones que se hicieron en un boletin - Recibe como parametro el ID un boletin
 # ------------------------------ EXPLICACION -----------------------------------------

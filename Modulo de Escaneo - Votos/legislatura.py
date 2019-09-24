@@ -1,5 +1,5 @@
 from includes import *
-from sopa import *
+from sopa     import *
 
 # Esta función retorna el ID de la legislatura que está vigente en la actualidad - No recibe parámetro
 # ------------------------------------------- EXPLICACIÓN ---------------------------------------------

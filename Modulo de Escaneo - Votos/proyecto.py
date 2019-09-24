@@ -1,5 +1,5 @@
 from includes import *
-from sopa import *
+from sopa     import *
 
 # Funcion que retorna el contenido existente en las etiquetas <PROYECTO_LEY> de una sesion
 # Esta función recibe como parametro el ID de la sesion.
@@ -15,7 +15,7 @@ def getProyecto(IDSesion):
     bs_boletin       = soup("http://opendata.camara.cl/wscamaradiputados.asmx/getSesionBoletinXML?prmSesionID="+IDSesion)
     if not bs_boletin.select("PROYECTO_LEY"):
         #print("-Sesion ",IDSesion, "es OBJETO_SESION\n-La votacion no tiene ID\n")
-        k=8
+        flag=False
     else:
         tagsProyecto = bs_boletin.select("PROYECTO_LEY")
         #print(tagsProyecto)

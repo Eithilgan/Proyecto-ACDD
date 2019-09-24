@@ -1,10 +1,9 @@
-from includes import * ; from sopa import * ; from legislatura import * ; from sesiones import *
-from proyecto import * ; from boletin import * ; from votaciones import *
-from detalle import *
-from fromBoletinGetproyecto import *
+from includes import * ; from sopa import    * ; from legislatura import * ; from sesiones import *
+from proyecto import * ; from boletin import * ; from votaciones import  *
+from detalle  import * ; from archivo import * ; from dialogo import     *
 
 LegID    = getLegislaturaActual()
-a_sesion = getSesiones(LegID)
+aSesion  = getSesiones(LegID)
 
 # Este es un script, que interactua con el usuario, pidiendo que ingrese datos y a través de funciones que están en otros scripts
 # entrega una respuesta con la información correspondiente a los datos ingresados por el usuario.
@@ -26,12 +25,14 @@ a_sesion = getSesiones(LegID)
 # Cabe destacar que si en una sesion cualquiera, se discute un proyecto de ley asociado a ese id de boletin
 # y no hay votacion, entonces no tomará en cuenta esa sesion, porque nos interesan las sesiones donde haya votacion
 
-#Luego, imprime los id de votaciones que hay en el boletin anteriormente ingresado 
-#Finalmente, obtiene el resultado de la votacion, preguntando el ID de votacion y validandolo 
+#Luego, al arreglo aVotaciones le asigna la lista de id de votaciones que retorna de la función getVotaciones() que está en el script votaciones.py
+#Posterior a ello, imprime los id de votaciones que hay en el boletin que le pasó como parámetro a getVotaciones()
+#Finalmente, obtiene el resultado de la votacion, preguntando el ID de votacion del cual se desea saber el resultado
+#Para esto llama a la función getDetalle() , la cual retorna APROBADO/RECHAZADO, pasándo como parámetro un ID de votación
 #Posteriormente, imprime el resultado de la votación 
-aProyecto=[]; aBoletin=[]
+aProyecto=[]; aBoletin=[]; aVotaciones=[]
 while(True):
-    print("\n########################### SESIONES DE LA LEGISLATURA ACTUAL ###");print(a_sesion);print("#################################################################\n")
+    print("\n########################### SESIONES DE LA LEGISLATURA ACTUAL ###");print(aSesion);print("#################################################################\n")
 
     sesion = input("\n-Obtener boletines a partir de ID de sesion: ")
     while(getProyecto(str(sesion))==None):
@@ -46,14 +47,17 @@ while(True):
     
     boletin=input("\n-Generar .TXT de la discusion parlamentaria a partir de ID de boletin: ")
     while(getVotaciones(str(boletin))==""):
-        boletin=input("# Error! No hay datos para este boletin o está mal ingresado\n Ingrese ID de boletin nuevamente: ")    
+        boletin = input("# Error! No hay datos para este boletin o está mal ingresado\n Ingrese ID de boletin nuevamente: ")    
     
     creaFile(boletin)
-    
-    print("\n****VOTACIONES EN BOLETIN ",boletin,":",getVotaciones(str(boletin)),"****")
-    votacion=input("\n-Obtener resultado a partir de ID de votacion: ")
-    while(getDetalle(str(votacion))==None):
-        votacion=input("# Error, ingrese de ID de votacion nuevamente: ")
+    aVotaciones = getVotaciones(str(boletin))
 
-    print("\n****RESULTADO:",getDetalle(str(votacion)),"****")
+    print("\n****VOTACIONES EN BOLETIN ",boletin,":",aVotaciones,"****")
+
+    votacion = input("\n-Obtener resultado a partir de ID de votacion: ")
+    while(getDetalle(str(votacion))==None):
+        votacion = input("# Error, No hay datos o el ingreso fue incorrecto\n Ingrese de ID de votacion nuevamente: ")
+
+    resultado = getDetalle(str(votacion))
+    print("\n****RESULTADO:",resultado,"****")
     input("Ingrese ENTER para continuar")
