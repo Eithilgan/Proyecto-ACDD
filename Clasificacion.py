@@ -28,6 +28,7 @@ def leer_documentos(root):
     labels = [] #tema
     docs = []   #
     for r, dirs, files in os.walk(root):
+        print(os.walk(root))
         for file in files:
             with open(os.path.join(r, file), "r",encoding="latin-1") as f:
                 #r es el directorio, y file son los archivos txt dentro, lo que hace
@@ -44,6 +45,8 @@ documentos = data['docs']
 etiquetas = data['labels']
 #____________________________________________________________#
 X_train = tfid.fit_transform(documentos)
+X_train2 = tfid.get_feature_names()
+print (X_train2)
 y_train = etiquetas
 #____________________________________________________________#
 #KNeighborsClassifier(n_neighbors=3) es un metodo de clasificacion que asigna
@@ -51,6 +54,7 @@ y_train = etiquetas
 #en n_neighbors indicamos la cantidad de vecinos bases para realizar la aproximacion
 clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(X_train, y_train)
+
 
 #____________________________________________________________#
 test = leer_documentos('Documento')
@@ -62,7 +66,4 @@ for i in range(len(test['labels'])):
     print (test['labels'][i])
     print(pred[i])
     print("----------------------------")
-    
 
-
-print('accuracy score %0.3f' % clf.score(X_test, y_test))
