@@ -3,9 +3,9 @@ from proyecto import * ; from boletin import * ; from votaciones import  * ; fro
 from dialogo import  * ; from bs4 import BeautifulSoup 
 
 # ------------------------------------------ EXPLICACION ------------------------------------------
-# Esta función no retorna cosa alguna. Se encarga de crear un archivo con la discusion parlamentaria asociada a un id de Boletin
+# Esta función no retorna cosa alguna. Se encarga de crear un archivo con la discusión parlamentaria asociada a un id de Boletin
 # Esta función recibe como parámetro el id de un boletin por ejemplo: "11571-21"
-# En primer lugar, llama a la función getSesionesById, la cual retorna un arreglo con todas las sesiones (Esta función está al comienzo de este script)
+# En primer lugar, llama a la función getSesionesById, la cual retorna un arreglo con todas las sesiones (Esta función está en el script sesiones.py)
 # en las que se discute sobre el proyecto de ley al cual esta asociado ese id de boletin
 # Por ejemplo: ['3731','3763']
 
@@ -26,9 +26,7 @@ from dialogo import  * ; from bs4 import BeautifulSoup
 
 def creaFile(idboletin):
     aSesion = getSesionesById(idboletin)
-    #print("\nEn el boletin ",idboletin," Existen las sesiones:",aSesion)
     for i in range(0,len(aSesion),1):
-        #print("\n******* Analizando la sesion:",aSesion[i]," *******\n")
         aProyectos = getProyecto(aSesion[i])
         for j in range(0,len(aProyectos),1):
             string = str(aProyectos[j])
