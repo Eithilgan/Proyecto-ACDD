@@ -34,8 +34,7 @@ def leer_documentos(root):
 
 data = leer_documentos("Aprendizaje")
 documentos = data['docs']
-print (documentos)
-print (data['docs'])
+print 
 etiquetas = data['labels']
 #____________________________________________________________#
 X_train = tfid.fit_transform(documentos)
