@@ -5,7 +5,7 @@
 
 from sklearn.feature_extraction.text import CountVectorizer
 # lista de documentos de texto
-text = ["Profesor alumno aula aprender enseñar escuela colegio liceo universidad aprendizaje curso beca materia privada publica instruccion instituto examen prueba rector municipal matricula estudiante notas numeros cualitativo preparacion evaluacion apoderado establecimiento tarea prueba control presentacion evaluacion admision gratuidad basica media superior doctorado bachiller titulo tecnico profesional docente postular biblioteca libro escribir directores", "establecimientos"]
+text = ["Profesor alumno aula aprender enseñar escuela colegio liceo universidad aprendizaje curso beca materia privada publica instruccion instituto examen prueba rector municipal matricula estudiante notas numeros cualitativo preparacion evaluacion apoderado establecimiento tarea prueba control presentacion evaluacion admision gratuidad basica media superior doctorado bachiller titulo tecnico profesional docente postular biblioteca libro escribir directores","establecimientos"]
 
 # crear la transformación
 vectorizer = CountVectorizer()
