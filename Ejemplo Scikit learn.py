@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  1 23:41:02 2019
-
 @author: Ezxiio
 """
 from sklearn.neighbors import KNeighborsClassifier
@@ -44,7 +42,7 @@ X_train = tfid.fit_transform(documentos)
 print(X_train)
 y_train = etiquetas
 
-Aprendizaje = KNeighborsClassifier(n_neighbors=2)
+Aprendizaje = KNeighborsClassifier(n_neighbors=1)
 Aprendizaje.fit(X_train,y_train)
 
 test = leer_documentos("Predecir")
