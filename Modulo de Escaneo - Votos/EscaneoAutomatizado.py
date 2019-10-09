@@ -1,11 +1,6 @@
-from includes import *
-from sopa import *
-from legislatura import *
-from sesiones import *
-from proyecto import *
-from boletin import *
-from votaciones import *
-from detalle import *
+from includes   import * ; from sopa     import *; from legislatura import *
+from sesiones   import * ; from proyecto import *; from boletin     import *
+from votaciones import * ; from detalle  import *; from archivo     import * 
 
 # Este es un script que no interactua con el usuario, extrae información por si solo.
 # Es un poco más eficiente que el script main.py
@@ -40,18 +35,23 @@ print("########################### SESIONES DE LA LEGISLATURA ACTUAL ###");print
 #          Si NO hay votaciones para ese id de Boletin, entonces continua con la siguiente etiqueta <PROYECTO_LEY>
 #          En caso de que SI hayan votaciones, recorrerá el arreglo que contiene los ID de las votaciones correspondientes al boletín en cuestion 
 #          Y llamara a la funcion getDetalle() para saber si el resultado de esa votacion fue APROBADO o RECHAZADO
+#          Además llama a la función creaFile, la cual crea un archivo con la discusión parlamentaria del boletin que reciba como parámetro
 
+particular = a_sesion.index("3769")-1
 for i in range(0,len(a_sesion),1):
     tagProyecto = getProyecto(a_sesion[i])
     if(tagProyecto is None):
-        flag=False
+        flag = False
     else:
-        aBoletin = [];                                                           print("\n###########################-SESION: ",a_sesion[i],"\n")
+        aBoletin = []
+        print("\n###########################-SESION: ",a_sesion[i],"\n")
         for j in range(0,len(tagProyecto),1):
             idBoletin = getBoletin(tagProyecto[j])
-            if(idBoletin!=""):
-                aBoletin.append(idBoletin);                                      print("\n************************-Boletin:",aBoletin[j],"\n")
-                idVotaciones=getVotaciones(aBoletin[j])
+            if(idBoletin!="" and idBoletin!=None):
+                aBoletin.append(idBoletin)
+                print("\n************************-Boletin:",aBoletin[j],"\n")
+                idVotaciones = getVotaciones(aBoletin[j])
                 if(idVotaciones!=None):
+                    creaFile(idBoletin)
                     for g in range(0,len(idVotaciones),1):
-                        print("-",idVotaciones[g],":",getDetalle(idVotaciones[g]))     
+                        print("- Resultado de la votación ",idVotaciones[g],":",getDetalle(idVotaciones[g]))     
