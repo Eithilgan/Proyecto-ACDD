@@ -22,5 +22,3 @@ def generaDialogo(idboletin): #Recibe como parámetro un id de boletin por ej: "
                     else:
                         aDiscusion.append(cadena) #Si hay discusión, añade esa discusión al arreglo aDiscusión
             return aDiscusion # Finalmente retorna el arreglo aDiscusión
-dia=generaDialogo("11571-21")
-print(dia)

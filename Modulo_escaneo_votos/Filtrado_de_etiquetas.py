@@ -41,13 +41,29 @@ def buscar_contenido_etiquetas(etiqueta):
             cont = cont+1
 
 #-----------------------------------------------------------------------------------------
-eti_pref = ['titulo','asistencia','intervencion_diputado']
-lista_etiquetas()
-for x in eti_pref:
-    print(buscar_etiqueta(x))
-    
+from proyecto import *
+from dialogo import *
+from GeneraDialogo import *
+import json
 
+def datos_boletin():
+    nombre = buscar_etiqueta('titulo')
+    proyecto = getProyecto('3747')
+    boletin = getBoletin(proyecto)
+    texto = generaDialogo(str(boletin))
+    return boletin,nombre,texto
+print (datos_boletin())
 
+def ToJson():
+   info_boletin = datos_boletin()
+   boletin = {
+                  "boletin": str(info_boletin[0]),
+                  "nombre" : str(info_boletin[1]),
+                  "texto"  : str(info_boletin[2])
+                  
+             }
+   Json = json.dumps(boletin)
+   print (ToJson())
 
 
 
