@@ -52,7 +52,6 @@ def datos_boletin():
     boletin = getBoletin(proyecto)
     texto = generaDialogo(str(boletin))
     return boletin,nombre,texto
-print (datos_boletin())
 
 def ToJson():
    info_boletin = datos_boletin()
@@ -63,7 +62,10 @@ def ToJson():
                   
              }
    Json = json.dumps(boletin)
-   print (ToJson())
+   print (Json)
+print("------------------------------SEPARADO--------------------------------")
+ToJson()
+
 
 
 
