@@ -28,15 +28,11 @@ def creaFile(idboletin):
     aSesion = getSesionesById(idboletin)
     for i in range(0,len(aSesion),1):
         aProyectos = getProyecto(aSesion[i])
-        if(aProyectos!=None):
-            for j in range(0,len(aProyectos),1):
-                string = str(aProyectos[j])
-                if(idboletin in string):
-                    cadena   = getDialogo(aProyectos[j])
-                    if(cadena==None):
-                        return
-                    namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
-                    nfh      = open(namefile+".txt","w")
-                    nfh.write(cadena)
-                    print("- El archivo ",namefile+".txt"," fue creado exitosamente")
-                   
+        for j in range(0,len(aProyectos),1):
+            string = str(aProyectos[j])
+            if(idboletin in string):
+                cadena   = getDialogo(aProyectos[j])
+                namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
+                nfh      = open(namefile+".txt","w")
+                nfh.write(cadena)
+                print("- El archivo ",namefile+".txt"," fue creado exitosamente")

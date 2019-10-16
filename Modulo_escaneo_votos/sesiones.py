@@ -36,7 +36,6 @@ def getSesiones(IDLegis):
 #                     Ejemplo: aSesiones = ['3731','3732']
 
 def getSesionesById(idboletin):
-    aSesiones = []
     url = "http://opendata.camara.cl/wscamaradiputados.asmx/getVotaciones_Boletin?prmBoletin="+idboletin
     bs_resultado = soup(url)
     if(bs_resultado.find("votacion")!=None):
@@ -46,5 +45,4 @@ def getSesionesById(idboletin):
             elemento      = elemento.replace("<id>","")
             elemento      = elemento.replace("</id>","")
             aSesiones[i] = elemento
-    print(aSesiones)
     return list(set(aSesiones))
