@@ -1,36 +1,62 @@
 # -*- coding: utf-8 -*-
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfVectorizer
+import os
 
+def leer_documentos(root):
+    diccionario = dict()
+    labels = [] #tema
+    docs = []   #
+    for r, dirs, files in os.walk(root):
+        for file in files:
+            with open(os.path.join(r, file), "r",encoding="latin-1") as f:
+                #r es el directorio, y file son los archivos txt dentro, lo que hace
+                #esta linea es unir la ruta de forma inteligente
+                docs.append(f.read()) #todo el contenido de cada txt
+            label = r.replace(root, '') #guarda nombre de cada carpeta y quita el nombre del path principal
+            labels.append(label.replace('\\',''))
+    for x in range(len(labels)):
+        diccionario.setdefault(labels[x], docs[x])
+    print(labels[0])
+    return diccionario
+    #devuelve diccionario con el texto y los nombres de cada carpeta 
 
-
-
+data = leer_documentos('Palabras_claves/Pruebas_Count')
+contar = leer_documentos('Palabras_claves/Salud/Contar')
 #____________________Palabras descartadas________________#
-prepositions =['a','del','ante','bajo','cabe','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
+prepositions =['a','del','ante','bajo','cabe','cada','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
 prep_alike = ['durante','mediante','excepto','salvo','incluso','más','menos']
 adverbs = ['no','si','sí']
-articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas']
+articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas','su','sus']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
 
-tfid = TfidfVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
+vectorizer = CountVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
 #____________________Conteo de palabras__________________#
 # lista de documentos de texto
-text = ["Cada estudiante puede seleccionar libremente los ejercicios de su interés y escribir periódicamente durante las clases de Lenguaje.Los docentes recibirán recomendaciones escritas para retroalimentar las entradas de los cuadernillos y para implementar en sus aulas una comunidad de escritores.Esta primera etapa del Plan Nacional de Escritura consiste en la entrega de cuadernillos de escritura, a través de los cuales los estudiantes desarrollarán de forma libre la escritura desde diversos temas y formatos. Irán destinados por tramos de edad: 1° y 2° básico; 3° a 6° básico, 7° y 8° básico; 1° a 4° medio."]
 # crear la transformación
-vectorizer = CountVectorizer()
 # tokenizar y construir el vocabulario
-vectorizer.fit(text)
+cadena = [data['Salud']]
+contar = [contar['Boletin_12507-11']]
+print(cadena)
+vectorizer.fit(cadena)
 # resumen
+vocabulario = vectorizer.get_feature_names()
+print("posicion asignada a cada palabra:")
 print(vectorizer.vocabulary_)
+print("----------------------------------------------------------------------------------")
+print("----------------------------------------------------------------------------------")
+print("palabras ordenadas por posicion(alfabeticamente):")
+print(vocabulario)
 # codificador de documentos
-vector = vectorizer.transform(text)
+vector = vectorizer.transform(contar)
 # resumir vector codificado
 print(vector.shape)
 print(type(vector))
 print(vector.toarray())
-
-
-
-#___________________Estructura Json_____________________#
-JsonData = '{"Legistalura":{"idLegislatura":,"numeroLegislatura":,"fecha_inicio":,"fecha_termino":,"tipo":,"sesion":{"idLegislatura":,"idSesion":,"numero":,"fecha_inicio":,"fecha_termino":,"tipo":,"Boletin":{"idDiputado":,"nombre":,"comentario":,"boletin":},"Asistencia":{"idSesion":,"nombre":,"partido":,"asistencia":,"asistencia":,"hora_ingreso":,"observacion":},Votaciones:{"boletin":,"resultado":,"a_favor":,"en_contra":,"abstencion":,"dispensados":}}}'
+datos = vector.toarray()
+suma = 0
+for x in range(len(vocabulario)):
+    suma = suma + datos[0][x]
+print("----------------------------------------------------------------------------------")
+print("Puntuacion total conteo de palabras =",suma)  
+    
