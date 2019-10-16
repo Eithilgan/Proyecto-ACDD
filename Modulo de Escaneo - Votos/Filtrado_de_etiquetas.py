@@ -39,6 +39,7 @@ def buscar_contenido_etiquetas(etiqueta):
         if allTagsID[i]==etiqueta:  
             print (etiqueta + " NUMERO: " + str(cont) + "\n" + (allTagsContent[i]))
             cont = cont+1
+            
 
 #-----------------------------------------------------------------------------------------
 eti_pref = ['titulo','asistencia','intervencion_diputado']
