@@ -1,20 +1,52 @@
 ﻿economía
+ahorro
+bienes
+renta
 fomento
 consumidores
+usuario
+cliente
+comprador
 cartera
 contables
+contador
+tesorero
+cajero
+administrador
 financieros
+banquero
+economista
+inversionista
 turismo
+excursión
+recorrido
+viaje
+vacación
+vacaciones
 pyme
 micro empresas
 pequeñas empresas
 medianas empresas
 emprendimiento
 financiamiento
+subvencionar
+pagar
+invertir
+respaldar
 empresas
+sociedad
+compañía
+firma
+negocio
+intercambio
+industria
+comercio
 impuestos
 inversión
+pago
 gastos
+desembolso
+consumición
 uf
 unidad de fomento
 empresarial
@@ -27,5 +59,21 @@ peso
 sector financiero
 moneda
 recaudación
+colecta
+recolecta
+recaudo
+ingreso
+cobro
+compra
+comprar
+vender
+venta
+importación
+importaciones
+exportación
+exportaciones
+compraventa
+negociación
+negocio
+trato
 sernatur
-

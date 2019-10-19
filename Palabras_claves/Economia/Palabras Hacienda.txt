@@ -1,6 +1,12 @@
 hacienda
 comercial
+mercantil
+mercante
 comercio
+negocio
+trato
+contratación
+transacción
 monetaria
 inversión
 gastos
