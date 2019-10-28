@@ -4,7 +4,6 @@ bienes
 renta
 fomento
 consumidores
-usuario
 cliente
 comprador
 cartera
@@ -33,7 +32,6 @@ subvencionar
 pagar
 invertir
 respaldar
-empresas
 sociedad
 compañía
 firma

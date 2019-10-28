@@ -19,10 +19,14 @@ def leer_documentos(root):
     return diccionario
     #devuelve diccionario con el texto y los nombres de cada carpeta 
 keys = []
+boletines = []
 for key in leer_documentos('Palabras_claves/Pruebas_Count'):
     keys.append(key)
+for key in leer_documentos('Palabras_claves/Salud/Contar'):
+    boletines.append(key)
 data = leer_documentos('Palabras_claves/Pruebas_Count')
 contar = leer_documentos('Palabras_claves/Salud/Contar')
+
 #____________________Palabras descartadas________________#
 prepositions =['a','del','ante','bajo','cabe','cada','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
 prep_alike = ['durante','mediante','excepto','salvo','incluso','más','menos']
@@ -30,7 +34,8 @@ adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas','su','sus']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
 
-def obtener_score(llaves,documentos,data,palabras):
+#(temas,boletines,palabras_claves,recorrido_for)
+def obtener_score(llaves,documentos,data,boletines,palabras):
     vectorizer = CountVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
     #____________________Conteo de palabras__________________#
@@ -38,7 +43,7 @@ def obtener_score(llaves,documentos,data,palabras):
     # crear la transformación
     # tokenizar y construir el vocabulario
     cadena = [data[palabras]]
-    documentos = [documentos['Boletin_12507-11']]
+    documentos = [documentos[boletines]]
     vectorizer.fit(cadena)
     # resumen
     vocabulario = vectorizer.get_feature_names()
@@ -49,19 +54,29 @@ def obtener_score(llaves,documentos,data,palabras):
     suma = 0
     for x in range(len(vocabulario)):
         suma = suma + datos[0][x]
-    return palabras,suma
+    return boletines,palabras,suma
 
-def obtener_top():
+def obtener_top(boletin):
     tema=[]
     score=[]
-    for x in keys:
-        resultados = (obtener_score(keys,contar,data,x))
-        tema.append(resultados[0])
-        score.append(resultados[1])
-    print(tema)
-    print(score)
-    print(max(score))
-    print(score.index(max(score)))
-    print(tema[score.index(max(score))])
-obtener_top()
-        
+    boletines=[]
+    for y in keys:
+        resultados = (obtener_score(keys,contar,data,boletin,y))
+        boletines.append(resultados[0])
+        tema.append(resultados[1])
+        score.append(resultados[2])
+            
+    #print(tema)
+    #print(score)
+    #print(max(score))
+    #print(score.index(max(score)))
+    temadef = (tema[score.index(max(score))])
+    boletindef = (boletines[score.index(max(score))])
+    print("la clasificacion para el boletin",boletindef,"es =",temadef)
+    print("-----------------------------------------------------------------")
+    
+
+def clasificar():
+    for y in boletines:
+        obtener_top(y)
+clasificar()      
