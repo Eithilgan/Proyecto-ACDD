@@ -16,10 +16,11 @@ def leer_documentos(root):
             labels.append(label.replace('\\',''))
     for x in range(len(labels)):
         diccionario.setdefault(labels[x], docs[x])
-    print(labels[0])
     return diccionario
     #devuelve diccionario con el texto y los nombres de cada carpeta 
-
+keys = []
+for key in leer_documentos('Palabras_claves/Pruebas_Count'):
+    keys.append(key)
 data = leer_documentos('Palabras_claves/Pruebas_Count')
 contar = leer_documentos('Palabras_claves/Salud/Contar')
 #____________________Palabras descartadas________________#
@@ -29,34 +30,38 @@ adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas','su','sus']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
 
-vectorizer = CountVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
+def obtener_score(llaves,documentos,data,palabras):
+    vectorizer = CountVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
-#____________________Conteo de palabras__________________#
-# lista de documentos de texto
-# crear la transformación
-# tokenizar y construir el vocabulario
-cadena = [data['Salud']]
-contar = [contar['Boletin_12507-11']]
-print(cadena)
-vectorizer.fit(cadena)
-# resumen
-vocabulario = vectorizer.get_feature_names()
-print("posicion asignada a cada palabra:")
-print(vectorizer.vocabulary_)
-print("----------------------------------------------------------------------------------")
-print("----------------------------------------------------------------------------------")
-print("palabras ordenadas por posicion(alfabeticamente):")
-print(vocabulario)
-# codificador de documentos
-vector = vectorizer.transform(contar)
-# resumir vector codificado
-print(vector.shape)
-print(type(vector))
-print(vector.toarray())
-datos = vector.toarray()
-suma = 0
-for x in range(len(vocabulario)):
-    suma = suma + datos[0][x]
-print("----------------------------------------------------------------------------------")
-print("Puntuacion total conteo de palabras =",suma)  
+    #____________________Conteo de palabras__________________#
+    # lista de documentos de texto
+    # crear la transformación
+    # tokenizar y construir el vocabulario
+    cadena = [data[palabras]]
+    documentos = [documentos['Boletin_12507-11']]
+    vectorizer.fit(cadena)
+    # resumen
+    vocabulario = vectorizer.get_feature_names()
+    # codificador de documentos
+    vector = vectorizer.transform(documentos)
     
+    datos = vector.toarray()
+    suma = 0
+    for x in range(len(vocabulario)):
+        suma = suma + datos[0][x]
+    return palabras,suma
+
+def obtener_top():
+    tema=[]
+    score=[]
+    for x in keys:
+        resultados = (obtener_score(keys,contar,data,x))
+        tema.append(resultados[0])
+        score.append(resultados[1])
+    print(tema)
+    print(score)
+    print(max(score))
+    print(score.index(max(score)))
+    print(tema[score.index(max(score))])
+obtener_top()
+        
