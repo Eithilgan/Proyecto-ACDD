@@ -1,4 +1,4 @@
- {
+interior= {
     "seguridad",
     "paz",
     "orden",
@@ -98,7 +98,7 @@ deporte = {
     "69":"martillo",
     "70":"artistica",
     }
-
+minrel= {
     "28":"limite",
     "29":"cooperacion",
     "30":"organizacion",
