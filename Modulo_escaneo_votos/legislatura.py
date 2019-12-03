@@ -23,4 +23,20 @@ def getLegislaturaActual():
     label_id        = bs_legislatura.find_all("id")                                ## Busca todas las etiquetas "ID" y retorna una lista con ellas
     IDLegis         = [Texto.text.strip() for Texto in bs_legislatura.select('id')][0]       
     NumeroLegis     = [Texto.text.strip() for Texto in bs_legislatura.select('numero')][0]
+    Tipo            = [Texto.text.strip() for Texto in bs_legislatura.select('tipo')][0]
+    Inicio          = [Texto.text.strip() for Texto in bs_legislatura.select('fechainicio')][0]
+    Termino         = [Texto.text.strip() for Texto in bs_legislatura.select('fechatermino')][0]
     return IDLegis
+
+def getDataOfLegislaturaActual():
+    #-Obtener datos de legislatura
+    url_legislatura = "http://opendata.camara.cl/wscamaradiputados.asmx/getLegislaturaActual"
+    bs_legislatura  = soup("http://opendata.camara.cl/wscamaradiputados.asmx/getLegislaturaActual")
+    label_id        = bs_legislatura.find_all("id")                                ## Busca todas las etiquetas "ID" y retorna una lista con ellas
+    IDLegis         = [Texto.text.strip() for Texto in bs_legislatura.select('id')][0]       
+    NumeroLegis     = [Texto.text.strip() for Texto in bs_legislatura.select('numero')][0]
+    Tipo            = [Texto.text.strip() for Texto in bs_legislatura.select('tipo')][0]
+    Inicio          = [Texto.text.strip() for Texto in bs_legislatura.select('fechainicio')][0]
+    Termino         = [Texto.text.strip() for Texto in bs_legislatura.select('fechatermino')][0]
+    
+    return [IDLegis,NumeroLegis,Inicio,Termino,Tipo]

@@ -1,6 +1,6 @@
 from includes import * ; from sopa import    * ; from legislatura import * ; from sesiones import *
 from proyecto import * ; from boletin import * ; from votaciones import  * ; from detalle import  *
-from dialogo import  * ; from bs4 import BeautifulSoup 
+from dialogo import  * ; from bs4 import BeautifulSoup; import os
 
 # ------------------------------------------ EXPLICACION ------------------------------------------
 # Esta función no retorna cosa alguna. Se encarga de crear un archivo con la discusión parlamentaria asociada a un id de Boletin
@@ -28,11 +28,22 @@ def creaFile(idboletin):
     aSesion = getSesionesById(idboletin)
     for i in range(0,len(aSesion),1):
         aProyectos = getProyecto(aSesion[i])
+        if(aProyectos is None):
+            return "None"
         for j in range(0,len(aProyectos),1):
             string = str(aProyectos[j])
             if(idboletin in string):
                 cadena   = getDialogo(aProyectos[j])
                 namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
-                nfh      = open(namefile+".txt","w")
+
+                if not os.path.exists("Sesiones/"+aSesion[i]):
+                    os.makedirs("Sesiones/"+aSesion[i])
+
+                if (os.path.exists("Sesiones/"+aSesion[i]+"/"+namefile+".txt")):
+                    return None
+                else:
+                    nfh      = open("Sesiones/"+aSesion[i]+"/"+namefile+".txt","w")
+
                 nfh.write(cadena)
                 print("- El archivo ",namefile+".txt"," fue creado exitosamente")
+                return cadena
