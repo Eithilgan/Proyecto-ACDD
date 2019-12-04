@@ -20,12 +20,12 @@ def leer_documentos(root):
     #devuelve diccionario con el texto y los nombres de cada carpeta 
 keys = []
 boletines = []
-for key in leer_documentos('Palabras_claves/Pruebas_Count'):
+for key in leer_documentos('Temas'):
     keys.append(key)
-for key in leer_documentos('Palabras_claves/Salud/Contar'):
+for key in leer_documentos('Predecir'):
     boletines.append(key)
-data = leer_documentos('Palabras_claves/Pruebas_Count')
-contar = leer_documentos('Palabras_claves/Salud/Contar')
+data = leer_documentos('Temas')
+contar = leer_documentos('Predecir')
 
 #____________________Palabras descartadas________________#
 prepositions =['a','del','ante','bajo','cabe','cada','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
@@ -54,6 +54,7 @@ def obtener_score(llaves,documentos,data,boletines,palabras):
     suma = 0
     for x in range(len(vocabulario)):
         suma = suma + datos[0][x]
+    print (palabras," = ",suma)
     return boletines,palabras,suma
 
 def obtener_top(boletin):
