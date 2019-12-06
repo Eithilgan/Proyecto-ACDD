@@ -1,7 +1,7 @@
 ﻿trabajo
-trabajar
 trabajador
 trabajadora
+formación
 ocupación
 función
 misión
@@ -10,6 +10,7 @@ quehacer
 tarea
 faena
 operación
+solidario
 labor
 previsión social
 laboral
@@ -30,7 +31,6 @@ cesantía
 bono
 desarrollo
 beneficio
-beneficios
 beneficiarios
 beneficiarias
 empresas
@@ -62,11 +62,12 @@ invalidez
 jubilación
 pensión
 pensión solidaria
-pensiones solidarias
 pensionado
 pensionada
 regímen previsional
 regímenes previsionales
+adulto mayor
+vejez
 pensionado
 desempleo
 desempleado
@@ -80,9 +81,20 @@ permiso
 laborales
 empleador
 empleadora
-empleadores
-empleadoras
 organización
-organizaciones
 capacitación
-capacitaciones
+trabajador joven
+mujer trabajadora
+subsidio
+empleo joven
+organismos
+sence
+capacitación
+emprendimiento
+esfuerzo
+empleabilidad
+negocio
+seguro
+cesantía solidario
+fondo
+normativa laboral

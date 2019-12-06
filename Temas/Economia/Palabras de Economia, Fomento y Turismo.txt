@@ -27,6 +27,8 @@ pyme
 micro empresas
 pequeñas empresas
 medianas empresas
+grandes empresas
+micro emprendimientos
 emprendimiento
 financiamiento
 subvencionar
@@ -43,6 +45,7 @@ industria
 comercio
 impuestos
 inversión
+extranjera
 pago
 gastos
 desembolso
@@ -65,15 +68,36 @@ recaudo
 ingreso
 cobro
 compra
-comprar
 vender
 venta
 importación
-importaciones
 exportación
-exportaciones
 compraventa
 negociación
 negocio
 trato
-sernatur
+Sernatur
+parques nacionales
+Conguillio
+Nahuelbuta
+Huerquehue
+volcanes
+puertos
+Sercotec
+naturaleza
+paisajes
+escénicos paisajes
+Corfo
+Inapi
+Sernapesca
+pesca
+industrial
+CNID
+FEBOS
+transferencia
+proveedor
+productividad
+tributaria
+bienes
+deudas
+reemprendimiento
