@@ -1,0 +1,33 @@
+dietario, memorándum, breviario, cuaderno, libreta, cuadernillo, diario, administración, oficina, asesoría, secretariado, negociado, intendencia, 
+despacho,aconsejar, sugerir, recomendar, proponer, aclarar, advertir, aleccionar, orientar, encauzar,
+encarrilar, dirigir, instruir, adiestrar, ilustrar, informar, consultar, preguntar, inquirir, solicitar, 
+director, gobernante, mandatario, jefe, guía,autoridad, dirigente, árbitro, principal, cabecilla,
+administrador, combinar, armonizar, acoplar,organizar, regular, compaginar, regularizar, acomodar, ordenar, 
+posibilitar, permitir, simplificar, favorecer, ayudar, allanar,crecimiento, aumento, acrecentamiento, incremento,adelanto, 
+ejecución, realización, desempeño,consumación, conclusión, terminación, finalización, remate, ley,legislación, 
+justicia, jurisprudencia, legalidad, estatuto, código, constitución, norma,
+precepto, disposición, edicto,principio, postulado,afecto, amor, lealtad, cariño, amistad,
+fidelidad, estima, usual, habitual, frecuente, corriente, ordinario, colectivo, público, general,
+
+
+
+
+universal,conocido, sabido, notorio, manifiesto, divulgado,aconsejar, sugerir, recomendar, proponer,
+aclarar, advertir, aleccionar,orientar,encauzar, encarrilar, dirigir, instruir, adiestrar, ilustrar,
+informar,consultar, preguntar, inquirir,solicitar,director, gobernante, mandatario, jefe, guía, 
+autoridad,dirigente, árbitro, principal, cabecilla, administrador,administrador, gobernante, funcionario, 
+valido,agente, representante, delegado,nación, país, territorio, tierra, patria, pueblo,
+gobierno, administración, poder, dominio, mandatodisposición, actitud, aspecto, forma, circunstancia, condición,
+naturaleza, situaciónestadio, curso, fase, etapa,memoria, inventario, resumen, estadística, 
+estadillo, cuadro,temperamento, talante, carácter,astucia, habilidad, marrullería, cálculo,régimen, 
+legalidad, dirección, gobierno,judicial, legal, forense, procesal, sumarial,empleado, funcionario,
+dependiente, comisionado, representante, burócrata,asamblea, reunión, simposio, convención, seminario, conferencia,
+
+
+
+
+coordinar,parlamento, cámara, cortes, senado,partido, dividido, troceado, fragmentado, seccionado,
+constitución, entidad, institución, organismo, corporación, sociedad,trámite, diligencia, procedimiento,aprendizaje,
+formación, instrucción, preparación, enseñanza, aplicación, memorización,análisis, investigación, observación, examen,
+tesis, tratado, ensayo, monografía, artículo, publicación,bufete, oficina, despacho, escritorio,
+apartamento, buhardilla,estudio, examen, observación, comparación, partición, separación, distinción,normas.

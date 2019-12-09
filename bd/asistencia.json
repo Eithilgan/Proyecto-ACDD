@@ -1,1 +1,0 @@
-{"_id":{"$oid":"5d6e947f84bd060bac10ba4d"},"idSesion":0,"nombre":"Juan Perez","partido":"RN","asistencia":"Presente","hora_ingreso":{"$date":"2019-09-03T15:05:00Z"},"observación":""}
