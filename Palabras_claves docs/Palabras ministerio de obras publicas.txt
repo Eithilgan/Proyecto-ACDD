@@ -1,52 +1,54 @@
-obras,
-publicas,
-construir,edificar,erigir,levantar,cimentar,obrar
-reparar,recomponer,restaurar,reformar,arreglar,remendar
-infraestructura,
-via,pista,senda,avenida
-autopista,autovia,
-puente,pasarela,viaducto,plataforma,
-tunel,corredor,paso,conducto,pasillo,subterraneo,gruta,
-aeropuerto,
-aerodromo,
-edificacion,levantamiento,alzamiento,
-construccion,edificacion,cimentacion,
-MOP,
-portuarias,
-hidraulicas,
-vialidad,
-arquitectura,
-aguas,
-lluvias,
-pavimentacion,
-camino,
-ruta,senda,
-calzada,
-vereda,
-edificio,inmueble,casa,vivienda
-alcantarilla,cloaca,desague,sumidero
-fozo,
-inmueble,edificio,
-portuarias,
-vialidad,
-predio,propiedad,hacienda,
-ambiental,
-yeso,cal,tiza,
-cemento,
-pintura,
-ventana,portillo,ventanilla,ventanal,
-carpinteria,taller,serreria,
-cerrajeria,ferreteria,
-arquitecto,constructor,edificador
-vivienda,apartamento,domicilio,edificacion,
-autopista,
-autovia,
-carretera,
-camino,calzada
-puerto,desembarcadero,embarcadero,muelle,
-canal,canaleta,canaleja,canalon,
-parque,jardin,bosque,cercado,
-ferroviario,
-presa,
-alumbrado,tendido
-calle,
+1  obras
+2  publicas
+3  construir
+4  reparar
+5  infraestructura
+6  camino
+7  autopista
+8  puente
+9  tunel
+10 aeropuerto
+11 aerodromo
+12 edificacion
+13 construccion
+14 MOP
+15 portuarias
+16 hidraulicas
+17 vialidad
+18 aeropuerto
+19 arquitectura
+20 aguas
+21 lluvias
+22 pavimentacion
+23 camino
+24 ruta
+25 calzada
+26 vereda
+27 edificio
+28 alcantarilla
+29 fozo
+30 inmueble
+31 aguas
+32 portuarias
+33 vialidad
+34 predio
+35 ambiental
+36 yeso
+37 cemento
+38 pitura
+39 ventana
+40 carpinteria
+41 cerrajeria
+42 arquitecto
+43 vivienda
+44 autopista
+45 autovia
+46 carretera
+47 camino
+48 puerto
+49 canal
+50 parque
+51 ferroviario
+52 presa
+53 alumbrado
+54 calle
