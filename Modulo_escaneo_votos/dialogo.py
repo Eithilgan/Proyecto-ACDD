@@ -26,12 +26,7 @@ def getDialogo(tagProyecto):
     tagProyecto    = str(tagProyecto)
     tagProyecto    = tagProyecto.split("<br/>")
     tagProyecto    = "".join(tagProyecto)
-
-    try:
-        corte = tagProyecto.index("<votacion")
-    except:
-        corte = tagProyecto.find("</PROYECTO_LEY>")
-    tagProyecto    = tagProyecto[:corte]
+    tagProyecto    = tagProyecto[:tagProyecto.index("<votacion")]
     flag = True
     while(flag==True):
         try:
@@ -42,4 +37,3 @@ def getDialogo(tagProyecto):
         except:
             flag = False
     return tagProyecto
-

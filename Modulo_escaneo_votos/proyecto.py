@@ -13,11 +13,10 @@ from sopa     import *
 #----------------------------------------------------------------------------------
 def getProyecto(IDSesion):
     bs_boletin       = soup("http://opendata.camara.cl/wscamaradiputados.asmx/getSesionBoletinXML?prmSesionID="+IDSesion)
-    etiquetaProyecto = bs_boletin.select("PROYECTO_LEY")
-    if not etiquetaProyecto:
+    if not bs_boletin.select("PROYECTO_LEY"):
         #print("-Sesion ",IDSesion, "es OBJETO_SESION\n-La votacion no tiene ID\n")
-        return None
+        flag=False
     else:
-        tagsProyecto = etiquetaProyecto
+        tagsProyecto = bs_boletin.select("PROYECTO_LEY")
         #print(tagsProyecto)
         return(tagsProyecto)

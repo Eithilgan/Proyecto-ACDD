@@ -32,13 +32,3 @@ def getVotaciones(IdBoletin):
             idVotacion[i] = elemento
     
     return idVotacion
-
-def getDataOfVotacion(idVotacion):
-    url = "http://opendata.camara.cl/wscamaradiputados.asmx/getVotacion_Detalle?prmVotacionID="+idVotacion
-    bs_resultado = soup(url)
-    Afirmativos   = [Texto.text.strip() for Texto in bs_resultado.select('TotalAfirmativos')][0]       
-    Negativos     = [Texto.text.strip() for Texto in bs_resultado.select('TotalNegativos')][0]
-    Abstenciones  = [Texto.text.strip() for Texto in bs_resultado.select('TotalAbstenciones')][0]
-    Dispensados   = [Texto.text.strip() for Texto in bs_resultado.select('TotalDispensados')][0]
- 
-    return [Afirmativos,Negativos,Abstenciones,Dispensados]

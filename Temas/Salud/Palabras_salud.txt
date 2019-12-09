@@ -1,6 +1,0 @@
-paciente,prevencion,enfermedad,cura,sanitaria,veneno,daños,epidemia,
-respiratoria,medicos,doctores,enfermeros,isapres,maternidad,embarazo,vida,asistencial,
-clinica,urgencia,pacientes,salud,mortalidad,natalidad,inmunizaciones,
-inmunologico,dental,respiratorio,obesidad,nutrientes,saludable,medicina,
-rehabilitacion,condicion,mental,enfermeria,diagnostico,terapeutico,ambulancia,cirujano,cirujia,
-cuarentena,transfusion,esterilizados,medicamentos,

@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5d6e93bf84bd060bac10ba4b"},"idLegislatura":0,"idSesion":0,"numero":0,"fecha_Inicio":{"$date":"2019-09-03T15:00:00Z"},"fecha_Termino":{"$date":"2019-09-03T03:16:30Z"},"tipo":"ordinaria"}
