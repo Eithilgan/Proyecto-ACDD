@@ -1,15 +1,150 @@
-justicia, equidad, imparcialidad, probidad, rectitud, razón, honestidad, conciencia, objetividad, derechos humanos,
-poder ejecutivo, poder judicial, procesal, sumario, sumarial, jurídico, ley, normas constitucionales, legislación, legalidad,
-código, norma, estatuto, protección, seguridad, apoyo, custodia, ayuda, defensa, amparo,
-auxilio, favor, atención, cuidado, conservación, tutor, tutela, escolta, socorro, tribunales,
-juzgado, audiencia, corte, condenas, cadena perpetua, sentencia, resolución, fallo, sanción, correctivo, 
-multa, defensa judicial, penitenciario, conflicto, combate, disputa, lucha, pugna, enfrentamiento, choque,
-pelea, fiscalia, delito, falta, infracción, crimen, culpa, quebramiento, transgresión, agresión,
-vulneración, violación, fechoría, desmán, perjurio, soborno, malversación, ofensa, amenaza, advertencia,
-calumnia, reinserción social, seguridad ciudadana, convicción, firmeza, evidencia, convencimiento, fe, certidumbre, confianza, 
-antecedentes penales, presidio, prisión, penitenciería, cárcel, derecho público, pena, indulto, liberación, liberar,
-conmutar, conmutación, absolución, gracia, amnistía, vulnerar, violar, transgredir, infringir, desobedecer,
-contravenir, incumplir, quebrantar, violentar, atropellar, conculcar, quebrar, cárcel, internos, policia,
-detective, polizonte, gendarme, comisaria, agente, guardia, uniformados, carabineros, juez, enjuiciador,
-sentenciador, juicio, trato digno, vulneración, delincuente, agresor, malhechor, infractor, criminal, asesino,
-homicida, femicida, facineroso, violador, fracticida, parricida, atracador, calabozo, celda, pdi
+justicia
+equidad
+imparcialidad
+probidad
+rectitd
+razón
+honestidad
+conciencia
+objetividad
+derechos humanos
+poder ejecutivo
+poder judicial
+procesal
+sumario
+sumarial
+jurídico
+ley
+normas constitucionales
+legislación
+legalidad
+código
+norma
+estatuto
+protección
+seguridad
+apoyo
+custodia
+ayuda
+defensa
+amparo
+auxilio
+favor
+atención
+cuidado
+conservación
+tutor
+tutela
+escolta
+socorro
+tribunales
+juzgado
+audiencia
+corte
+condenas
+cadena perpetua
+sentencia
+resolución
+fallo
+sanción
+correctivo
+multa
+defensa judicial
+penitenciario
+conflicto
+combate
+disputa
+lucha
+pugna
+enfrentamiento
+choque
+pelea
+fiscalia
+delito
+falta
+infracción
+crimen
+culpa
+quebramiento
+transgresión
+agresión
+vulneración
+violación
+fechoría
+desmán
+perjurio
+soborno
+malversación
+ofensa
+amenaza
+advertencia
+calumnia
+reinserción social
+seguridad ciudadana
+convicción
+firmeza
+evidencia
+convencimiento
+fe
+certidumbre
+confianza
+antecedentes penales
+presidio
+prisión
+penitenciería
+cárcel
+derecho público
+pena
+indulto
+liberación
+liberar
+conmutar
+conmutación
+absolución
+gracia
+amnistía
+vulnerar
+violar
+transgredir
+infringir
+desobedecer
+contravenir
+incumplir
+quebrantar
+violentar
+atropellar
+conculcar
+quebrar
+cárcel
+internos
+policia
+detective
+polizonte
+gendarme
+comisaria
+agente
+guardia
+uniformados
+carabineros
+juez
+enjuiciador
+sentenciador
+juicio
+trato digno
+vulneración
+delincuente
+agresor
+malhechor
+infractor
+criminal
+asesino
+homicida
+femicida
+facineroso
+violador
+fracticida
+parricida
+atracador
+calabozo
+celda
+pdi
