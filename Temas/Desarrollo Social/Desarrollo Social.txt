@@ -1,1 +1,16 @@
-desarrollo, desarrollos, creciemiento, crecimientos, aumento, aumentar, incremento, incrementar, social, sociales, sociedad, familia, familias, familiar, familiares, hogar, hogares, morada, moradas, progreso, progresos, pobrezas, pobreza, miseria, miserias, protección, proteger,  vulnerable, vulnerables, vulnerabilidad, vulnerabilidades, integración, integrar, familiar, familiares, familiaridad, adulto, adultos, mayor, mayores, juventud, joven, adolescente, adolescentes, ninos, niños, nino, niño, derecho, derechos, menor, menores, calle, situacion, ciudadano, ciudadanos, habitante, habitantes, residentes, residente, vecinos, vecino, poblador, pobladores, población, poblaciones, clase, media, baja, empleo, trabajos, empleos, oficio, cargo, cargos, trabajo, inclusión, inclusiones, pueblo, pueblos, indígena, indígenas, oriundo, oriundos, nativo, nativos, solidaridad, solidario, solidaria, discapacidad, discapacitados, discapacitada, discapacitadas, sostenible, extrema, infancia, infancias, infantil, infantiles, sano, sanos, injuv, conadi, fosis, senadis, senama, persona, personas, dependencia, anciano, ancianos, ancianas, anciana, ciudanania, seguridad, sociales, padres, padre, madre, madres, hijos, hijo, pension, pensiones, jubilación, jubilaciones, jubilado, jubilados, jubilada, jubiladas, pensionado, pensionada, pensionadas, pensionados, manutención, manutenciones, intrafamiliar, intrafamiliares
+﻿desarrollo, desarrollos, creciemiento, crecimientos, aumento, aumentar, incremento, incrementar, social, sociales,
+sociedad, familia, familias, familiar, familiares, hogar, hogares, morada, moradas, progreso,
+progresos, pobrezas, pobreza, miseria, miserias, protección, proteger,  vulnerable, vulnerables, vulnerabilidad,
+vulnerabilidades, integración, integrar, familiar, familiares, familiaridad, adulto, adultos, mayor, mayores,
+juventud, joven, adolescente, adolescentes, ninos, niños, nino, niño, derecho, derechos,
+menor, menores, calle, situacion, ciudadano, ciudadanos, habitante, habitantes, residentes, residente,
+vecinos, vecino, poblador, pobladores, población, poblaciones, clase, media, baja, empleo, 
+trabajos, empleos, oficio, cargo, cargos, trabajo, inclusión, inclusiones, pueblo, pueblos,
+indígena, indígenas, oriundo, oriundos, nativo, nativos, solidaridad, solidario, solidaria, discapacidad, 
+discapacitados, discapacitada, discapacitadas, sostenible, extrema, infancia, infancias, infantil, infantiles, sano,
+
+
+sanos, injuv, conadi, fosis, senadis, senama, persona, personas, dependencia, anciano,
+ancianos, ancianas, anciana, ciudanania, seguridad, sociales, padres, padre, madre, madres, 
+hijos, hijo, pension, pensiones, jubilación, jubilaciones, jubilado, jubilados, jubilada, jubiladas,
+pensionado, pensionada, pensionadas, pensionados, manutención, manutenciones, intrafamiliar, intrafamiliares.
