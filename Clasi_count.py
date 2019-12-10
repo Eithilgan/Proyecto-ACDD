@@ -22,10 +22,10 @@ keys = []
 boletines = []
 for key in leer_documentos('Temas'):
     keys.append(key)
-for key in leer_documentos('Predecir'):
+for key in leer_documentos('Prueba'):
     boletines.append(key)
 data = leer_documentos('Temas')
-contar = leer_documentos('Predecir')
+contar = leer_documentos('Prueba')
 
 #____________________Palabras descartadas________________#
 prepositions =['a','del','ante','bajo','cabe','cada','con','contra','de','desde','en','entre','hacia','hasta','para','por','según','sin','so','sobre','tras']
@@ -71,8 +71,8 @@ def obtener_top(boletin):
     #print(score)
     #print(max(score))
     #print(score.index(max(score)))
-    temadef = (tema[score.index(max(score))])
-    boletindef = (boletines[score.index(max(score))])
+    temadef = (tema[score.index(max(score))]) #recojo la posicion del valor mas alto en score
+    boletindef = (boletines[score.index(max(score))]) #busco la posicion del boletin al cual corresponde el valor mas alto
     print("la clasificacion para el boletin",boletindef,"es =",temadef)
     print("-----------------------------------------------------------------")
     
