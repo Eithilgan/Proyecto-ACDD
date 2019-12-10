@@ -36,15 +36,31 @@ def creaFile(idboletin):
                 cadena   = getDialogo(aProyectos[j])
                 #namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
                 namefile  = idboletin
-                SesionNameDir = "Sesiones2/"
-                if not os.path.exists(SesionNameDir+aSesion[i]):
-                    os.makedirs(SesionNameDir+aSesion[i])
+                Directorio = "Sesiones2/"
+                if not os.path.exists(Directorio+aSesion[i]):
+                    os.makedirs(Directorio+aSesion[i])
 
-                if (os.path.exists(SesionNameDir+aSesion[i]+"/"+namefile+".txt")):
+                if (os.path.exists(Directorio+aSesion[i]+"/"+namefile+".txt")):
                     return None
                 else:
-                    nfh      = open(SesionNameDir+aSesion[i]+"/"+namefile+".txt","w")
-
+                    nfh      = open(Directorio+aSesion[i]+"/"+namefile+".txt","w")
                 nfh.write(cadena)
                 print("- El archivo ",namefile+".txt"," fue creado exitosamente")
+
+
+                namefile  = aSesion[i]
+                Directorio = "Boletines/"
+                if not os.path.exists(Directorio+idboletin):
+                    os.makedirs(Directorio+idboletin)
+
+                if (os.path.exists(Directorio+idboletin+"/"+namefile+".txt")):
+                    return None
+                else:
+                    nfh      = open(Directorio+idboletin+"/"+namefile+".txt","w")
+                nfh.write(cadena)
+                print("- El archivo ",namefile+".txt"," fue creado exitosamente")
+
+
+
+
                 return cadena

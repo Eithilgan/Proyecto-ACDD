@@ -22,11 +22,11 @@ if(duplicado==False):
     insertarRegistro("Legislatura",Legislatura(DataOfLeg[0],DataOfLeg[1],DataOfLeg[2],DataOfLeg[3],DataOfLeg[4]))
 
 
-
+directorioSesiones = "Sesiones2"
 #a_sesion es una variable que guarda un arreglo con todas las sesiones pertenecientes a la legislatura actual
 a_sesion = getSesiones(DataOfLeg[0])
 #Aquí se guardan las carpetas de las sesiones ya analizadas, básicamente para que no las vuelva a analizar
-folderSesiones = [dI for dI in os.listdir(os.getcwd()+"\\Sesiones2") if os.path.isdir(os.path.join(os.getcwd()+"\\Sesiones2",dI))] 
+folderSesiones = [dI for dI in os.listdir(os.getcwd()+"\\"+directorioSesiones) if os.path.isdir(os.path.join(os.getcwd()+"\\"+directorioSesiones,dI))] 
 print("#####\nLas sesiones de la legislatura actual son:\n",a_sesion,"#####\n")
 print("\n  -- Largo :",len(a_sesion),"\n")
 #Borrar del arreglo a_sesion aquellas sesiones que ya están hechas (esto a partir del arreglo folderSesiones)
@@ -60,7 +60,7 @@ for i in range(0, len(a_sesion), 1):
     #El segundo parametro que recibe es: El metodo constructor de un objeto "Sesion", el objeto Sesion
     #Tiene atributos: IdLegislatura, idSesion, numero, fecha_inicio, fecha_termino y tipo. 
     datosSesion = getDataOfSesion(a_sesion[i])
-    duplicado = IsDuplicate("Legislatura","idsesion",datosSesion[0])
+    duplicado = IsDuplicate("Sesion","idsesion",datosSesion[0])
     if(duplicado==False):
         insertarRegistro("Sesion",Sesion(DataOfLeg[0],datosSesion[0],datosSesion[1],datosSesion[2],datosSesion[3],datosSesion[4]))
  
@@ -84,7 +84,8 @@ for i in range(0, len(a_sesion), 1):
 
             #idBoletin es una variable que llama a la función getBoletin, esta función recibe como parámetro una
             #etiqueta PROYECTO_LEY. Esta función retorna un ID de boletin, por ejemplo: "4321-123"
-            idBoletin = getBoletin(etiquetasProyecto[j])
+            idBoletin   = getBoletin(etiquetasProyecto[j])
+            #nameBoletin = getNameBoletin(etiquetasProyecto[j])
 
             #En caso de que el boletín no esté vacío continúa
             if(idBoletin!="" and idBoletin!=None):
@@ -113,7 +114,7 @@ for i in range(0, len(a_sesion), 1):
                         #Tiene atributos: IdBoletin, Nombre y contenido. 
                         duplicado = IsDuplicate("Boletin","idboletin",str(idBoletin))
                         if(duplicado==False):
-                            insertarRegistro("Boletin",Boletin(str(idBoletin),"None",contenido))
+                            insertarRegistro("Boletin",Boletin(str(idBoletin)," ","Prediccion",contenido))
 
                         
                         #Este es un ciclo for que recorre el arreglo de las votaciones que hubieron en un boletin particular

@@ -41,3 +41,14 @@ def getBoletin(proyecto):
         idBoletin = idBoletin.split(" ")
         idBoletin = idBoletin[0]
     return idBoletin
+
+def getNameBoletin(proyecto):
+    proyecto  = str(proyecto)
+    corta1     = proyecto.find(">")
+    corta2     = proyecto.find("(")
+    name  = proyecto[corta1:corta2]
+    
+    print("\n******")
+    print(name)
+    print("******\n")
+    return name
