@@ -1,4 +1,4 @@
-from includes   import * ; from sopa     import *; from legislatura import *
+from sopa     import *; from legislatura import *
 from sesiones   import * ; from proyecto import *; from boletin     import *
 from votaciones import * ; from detalle  import *; from archivo     import * 
 
@@ -37,7 +37,7 @@ print("########################### SESIONES DE LA LEGISLATURA ACTUAL ###");print
 #          Y llamara a la funcion getDetalle() para saber si el resultado de esa votacion fue APROBADO o RECHAZADO
 #          Además llama a la función creaFile, la cual crea un archivo con la discusión parlamentaria del boletin que reciba como parámetro
 
-particular = a_sesion.index("3769")-1
+#particular = a_sesion.index("3769")-1
 for i in range(0,len(a_sesion),1):
     tagProyecto = getProyecto(a_sesion[i])
     if(tagProyecto is None):
