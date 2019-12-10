@@ -1,50 +1,40 @@
-ejercito
-defensa
-nacional
-militar
-soldado
-regimiento
-cuartel
-comandante
-armada
-escuadron
-suboficial
-fuerza
-ASMAR
-contraalmirante
-capitan
-rescate 
-custodia
-coronel
-aerea
-desminado 
-paz
-servicio
-FFAA
-CNAD
-explosivo
-mina
-CHOD
-vicealmirante
-seguridad
-aeronautica
-naval
-DGAC
-FACH
-aviacion
-armamento
-explosivo
-granada
-proyectil
-pistola
-subfusil
-escopeta
-ametralladora
-lanzagranadas
-misil
-cohete
-combate
-aeronave
-entrenamiento
-fuego
-granada
+1  ejercito
+2  defensa
+3  nacional
+4  militar
+5  soldado
+6  regimiento
+7  cuartel
+8  comandante
+9  armada
+10 escuadron
+11 suboficial
+12 fuerza
+13 ASMAR
+14 contraalmirante
+15 capitan
+16 rescate 
+17 custodia
+18 coronel
+19 aerea
+20 desminado 
+21 paz
+22 servicio
+23 FFAA
+24 CNAD
+25 explosivo
+26 mina
+27 CHOD
+28 vicealmirante
+29 seguridad
+30 aeronautica
+31 naval
+32 DGAC
+33 FACH
+34 aviacion
+35 
+36
+37
+38
+39
+40

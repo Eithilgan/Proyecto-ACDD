@@ -1,0 +1,26 @@
+obras, trabajo, faena, tarea, labor, quehacer, ejercicio,
+publicas, estatal, gubernativo, administrativo,
+construir, edificar, fabricar, erigir, levantar, cimentar, obrar,
+reparar, recomponer, restaurar, reformar, arreglar, remendar,
+infraestructura,
+camino, vía, calzada, carretera, travesía, pista, senda, vereda, calle, avenida, bulevar, ronda, paseo
+autopista, autovía, carretera, vía, pista
+puente, pasarela, pontón, viaducto, plataforma
+tunel, galería, corredor, paso, conducto, pasaje, pasillo, subterráneo, mina, gruta, cueva, caverna, sima
+aeropuerto, aeródromo, base aérea, campo de aviación
+aerodromo
+edificacion, levantamiento, alzamiento
+construccion, edificación, urbanización, levantamiento, cimentación
+MOP
+portuarias
+hidraulicas
+vialidad
+aeropuerto, aeródromo, base aérea, campo de aviación
+arquitectura, construcción, edificación
+pavimentacion
+camino, vía, calzada, carretera, travesía, pista, senda, vereda, calle, avenida, bulevar, ronda, paseo
+ruta, itinerario, rumbo, derrotero, dirección, trayecto, camino, vía, senda
+calzada, vía, calle, pista, carretera, camino, rúa, pavimento, asfalto, autopista, autovía
+vereda, senda, sendero, camino, atajo, desvío, trocha, variante, ramal
+edificio, inmueble, casa, vivienda, obra, bloque, finca, construcción, edificación, fábrica, manzana
+alcantarilla, cloaca, desagüe, sumidero, colector, albañal, coluvie, atarjea, vertedero

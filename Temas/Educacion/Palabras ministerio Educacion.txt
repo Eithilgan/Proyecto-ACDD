@@ -1,4 +1,48 @@
-﻿Profesor alumno aula aprender enseñar escuela colegio liceo universidad aprendizaje curso beca materia privada publica instruccion
-instituto examen prueba rector municipal matricula estudiante notas numeros cualitativo preparacion evaluacion apoderado 
-establecimiento tarea prueba control presentacion evaluacion admision gratuidad basica media superior doctorado bachiller 
-titulo tecnico profesional docente postular biblioteca libro escribir
+Profesor, educador, instructor, maestro, pedagogo, preceptor, monitor, catedrático, doctor, consejero
+alumno, escolar, estudiante, colegial, discípulo, educando, oyente, párvulo, seguidor
+aula, clase, sala, cátedra, paraninfo, hemiciclo, anfiteatro, salón, cámara, aposento, recinto
+aprender, instruirse, estudiar, educarse, aplicarse, asimilarse, cultivarse, cursar, empollar, formar, ilustrar, penetrar, practicar, preparar, profundizar, repasar, ejercitarse
+enseñar, instruir, adiestrar, educar, criar, adoctrinar, ilustrar, alfabetizar, catequizar, iniciar, explicar, aleccionar, preparar
+escuela, colegio, academia, instituto, liceo, conservatorio, facultad
+colegio,  ateneo, seminario
+liceo, pensionado
+universidad, facultad, escuela, seminario, colegio, cátedra, claustro, paraninfo
+aprendizaje, estudio, enseñanza, educación, práctica, ejercitamiento, amaestramiento, ilustración, instrucción, didáctica, autodidáctica, lección, noviciado, aplicación, experiencia
+curso, derrotero, desarrollo, trayectoria, dirección, rumbo, destino, itinerario
+beca,
+materia, sustancia, elemento, ingrediente, componente, cuerpo, ser, masa, principio, factor
+privada, 
+publica,
+instruccion, adiestramiento, crianza, aprendizaje, capacitación, ejercicio, magisterio, catequesis
+instituto, academia, centro, escuela, liceo, colegio, facultad, institución
+examen, prueba, ejercicio, concurso, oposición, convocatoria
+prueba, ensayo, tanteo, tentativa, verificación, comprobación, examen, estudio, contraste, cata
+rector, superior, director, presidente, regente
+matricula, registro, inscripción, documento, patente, lista, relación, censo, catastro
+estudiante, alumno, escolar, colegial, discípulo, aprendiz
+notas, calificación, resultado, puntuación, evaluación, valoración
+numeros,
+preparacion,
+evaluacion, valoración, tasación, peritaje, estimación, apreciación
+apoderado,
+establecimiento, 
+tarea,
+prueba, ensayo, examen, estudio,
+control,
+presentacion,
+evaluacion,
+admision,
+gratuidad
+basica
+media
+superior
+doctorado
+bachiller, diplomado, graduado, estudiante, licenciado, docto, experto, entendido
+titulo,
+tecnico
+profesional
+docente, didáctico, pedagógico, instructivo, formativo, universitario
+postular,
+biblioteca
+libro, tomo, volumen, obra, texto, manual, compendio, vademécum
+escribir, transcribir, manuscribir, copiar, anotar,rubricar,  caligrafiar, mecanografiar, taquigrafiar
