@@ -1,0 +1,26 @@
+apartamento, piso, vivienda, alojamiento, buhardilla, estudio
+piso, planta, nivel, estrato
+domicilio, hogar, residencia, ubicación, localización, vivienda, casa
+edificación, construcción, obra, edificio, fábrica, inmueble, urbanización
+bloque,
+habitáculo, habitación, hábitat
+morada, domicilio, hogar, residencia, vivienda, casa
+edificio, inmueble, casa, vivienda, obra, bloque, finca, construcción, edificación, fábrica, 
+casa, domicilio, hogar, vivienda, morada, residencia, piso, habitación, lar
+urbanismo, desarrollo, planificación, urbanización
+crecimiento, progresión, subida, aumento
+acrecentamiento, amplificación, 
+progreso,
+cimentación,
+
+edificio,
+fábrica,
+inmueble, bloque, edificación, edificio, finca
+obra, trabajo, faena, tarea, labor, quehacer, ejercicio
+vivir,habitar, morar, parar, residir, albergarse, establecerse, asentarse
+urbano,ciudadano, civil, cívico, metropolitano, municipal
+rural, campestre, agrario, rústico, pastoril, agreste, campesino, bucólico, labriego, apacible
+barrio, barriada, distrito, arrabal, suburbio, ciudadela, ensanche, alfoz, extrarradio, intramuros, judería, morería,
+campos, terreno, labrantío, pradera, pradería, prado, sembrado, dehesa, huerta
+deportivo,
+hospital,
