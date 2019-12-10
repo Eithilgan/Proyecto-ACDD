@@ -1,0 +1,18 @@
+laboreo, labranza, cultivo, agronomía,ganado, manada, grey, rebaño, hato, vacada, 
+cabaña,manufactura, elaboración, producción, empresa, explotación, fábrica, fabricación,habilidad, destreza, 
+maña, maestría, oficio, disposición, facultad,conquista, invasión, población, repoblación,migración, 
+emigración, inmigración, comida, comestible, manjar, sustento, vianda, yantar, colación, refrigerio, 
+bocado, piscolabis, tentempié, pitanza, plato, puchero, ración, maná, manduca,capturar,
+atrapar, cazar, agarrar, coger, pillar, apresar,agricultor, labrador, aldeano, lugareño, 
+rústico,agrario, campestre, rural,ahorro, hacienda, bienes, reservas, riqueza, renta,
+miseria, escasez, estrechez, frugalidad,Creador, fabricante, industrial, financiador,trabajador, obrero, 
+asalariado, empleado, crecimiento, aumento, acrecentamiento, incremento, adelanto,
+campestre, agrario, rústico, pastoril, agreste, campesino, bucólico, labriego, apacible,rural.
+
+arboricultura,líquido, fluido, linfa, caldo, jugo, zumo,superficie, piso, pavimento, 
+solado, firme, adoquinado, empedrado, terreno, solar,territorio, patria, pueblo, cuna,
+asiento, culo, pie, base, selvático, boscoso, agreste,labrador, labriego, cultivador, 
+granjero, hortelano, horticultor, plantador, campesino, payés, colono, rústico,agricultor,sanidad,
+vegetal, árbol, arbusto, mata,piso, nivel, altura,factoría, fábrica, industria,porte, apariencia, figura.
+
+
