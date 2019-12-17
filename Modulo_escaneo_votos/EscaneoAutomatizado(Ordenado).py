@@ -114,7 +114,7 @@ for i in range(0, len(a_sesion), 1):
                         #Tiene atributos: IdBoletin, Nombre y contenido. 
                         duplicado = IsDuplicate("Boletin","idboletin",str(idBoletin))
                         if(duplicado==False):
-                            insertarRegistro("Boletin",Boletin(str(idBoletin)," ","Prediccion",contenido))
+                            insertarRegistro("Boletin",Boletin(str(idBoletin)," ","Prediccion",contenido,"score"))
 
                         
                         #Este es un ciclo for que recorre el arreglo de las votaciones que hubieron en un boletin particular

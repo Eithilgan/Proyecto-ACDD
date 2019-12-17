@@ -19,6 +19,15 @@ def updatePrediccion(idboletin,prediccion):
     value = {"$set":{"prediccion":str(prediccion)}}
     columna.update_many(query,value,upsert=False)
 
+def updateScore(idboletin,score):
+    #DbName="Camara1"
+    cliente = MongoClient("localhost", 27017)
+    database = cliente[str(DbName)]
+    columna = database[str("Boletin")]
+    query = {"idboletin":str(idboletin)}
+    value = {"$set":{"score":str(score)}}
+    columna.update_many(query,value,upsert=False)
+
 def updateNombre(idboletin,nombreBoletin):
     #DbName="Camara1"
     cliente = MongoClient("localhost", 27017)
@@ -49,4 +58,5 @@ def IsDuplicate(NombreColeccion,campo,dato):
     return flag
 
 #DeleteDatabase()
+#updateScore("11256-12","  ")
 #updatePrediccion("11256-12","El proyecto trata de salud")
