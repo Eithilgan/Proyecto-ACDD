@@ -1,0 +1,17 @@
+técnica, ciencia, sabiduría, sapiencia, saber, conocimiento, erudición,habilidad, maestría, experiencia,
+facultad, técnica, disciplina, rama, entendimiento, inteligencia, discernimiento, consciencia, razón, intuición,
+saber, ciencia, erudición, cultura, sabiduría, competencia, instrucción, estudios,novedad, originalidad,
+cambio, invención, perfeccionamiento, mejora, sabio, erudito, docto, maestro, investigador, inventor,
+ingenieria, fuerza, vigor, potencia, poder, firmeza, contundencia, poderío, pujanza, reciedumbre, 
+resistencia, acción, vida, dinamismo, vivacidad, garra, coraje, ímpetu, brío, intensidad,
+ánimo, valor, carácter, empuje, entereza, resolución, tenacidad, alimenticio, fortalecedor, nutritivo, 
+vigorizante, vitamínico, tonificante, ejercicio, maniobra,contrato, negocio, trato, convenio,intervención,
+acción, actuación, ejecución, trabajo, procedimiento, realización, transmisión, emisión,receptor, televisor.
+
+
+experimentación, examen, indagación, intento, investigación, prueba,aprender, educarse, formarse, instruirse, 
+cultivarse,cursar, asistir,memorizar, preparar, empollar,analizar, investigar, observar, examinar,
+meditar, reflexionar,ensayo, tanteo, prodigio, rareza, maravilla, milagro, portento,monstruo,
+engendro, aberración, anormalidad, quimera,fenomenal,artificioso, falso, fingido, ficticio, falsificado,
+apañado, adulterado, espurio, postizo, contrahecho, disfrazado, engañoso, trucado, convencional, simulado, 
+aparente, ilusorio, quimérico, sintético, fabricado, industrial, químico.

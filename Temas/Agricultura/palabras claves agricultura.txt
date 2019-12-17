@@ -1,6 +1,0 @@
-"agricultura","agropecuario","agropecuaria","produccion","recursos","naturales","renovables","nutricion",
-"condiciones","pueblo","agroalimentario","forestal","sustentable","industria","agricola","productividad",
-"tierra","pastoreo","cultivos","tractores",animales,"productividad","manufacturas","biotecnolofia","produtos",
-"hectarea","insumos","soya","trigo","maiz","crecimiento","ganado","maquinaria","ferilizantes","superficie",
-"vacas,","vacunos","corderos","caballos","mulas","gansos","patos","pollos","temperatura","fertilidad",
-"temperatura","climatico","territorio","huertos","plantaciones","frutas","verduras","agua","pesca","especies","criaderos"

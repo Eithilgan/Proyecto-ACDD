@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 paciente, tolerante, sosegado, calmoso, pacientes
 prevencion, previsión, preparación, disposición,
 enfermedad, afección, dolencia, indisposición, padecimiento, trastorno,
@@ -40,3 +41,46 @@ esterilizados, desinfectar, higienizar, purificar
 medicamentos, medicina, fármaco, droga, antidoto
 
 
+=======
+﻿paciente, sufrido, enfermo, 
+prevencion, previsión, preparación,
+enfermedad,afección, dolencia, padecimiento, trastorno, mal, dolor, malestar, sufrimiento,  achaque,  molestia, decaimiento, plaga, peste,
+cura, curación, tratamiento, medicación, terapia,
+sanitaria, higiénico, sano, saludable, salubre, enfermero, ayudante, auxiliar médico,
+veneno, tóxico,  cianuro,
+daños, deterioro, estropicio, destrucción, damnificación, trastorno, rotura,
+epidemia, peste, contagio, plaga, azote,
+respiratoria, torácico, pectoral,
+medicos, doctor,  terapeuta, cirujano, otorrinolaringólogo, pediatra, psiquiatra, radiólogo, urólogo, tocólogo, traumatólogo,
+enfermero,
+isapre,
+maternidad, engendramiento, 
+embarazo, gestación, preñez, 
+vida, vigor,
+asistencial,
+clinica, hospital, sanatorio, consultorio, dispensario
+urgencia, 
+salud, salubridad, sanidad, 
+mortalidad, mortandad, muerte, aniquilación, exterminio
+natalidad, 
+inmunizaciones, prevención, vacunación
+inmunologico,
+dental, odontológico, bucal, molar,
+obesidad,  gordura,
+nutrientes,
+saludable, sano, vigoroso,
+medicina, medicamento, fármaco
+rehabilitacion, restauración, 
+condicion,
+mental, cerebral, 
+enfermeria, botiquín, clínica,  consultorio, hospital, sanatorio
+diagnostico,  
+terapeutico, curativo, 
+ambulancia,
+cirujano,
+cirujia,
+cuarentena,
+transfusion,trasvase, inyección
+esterilizados, desinfectar, higienizar, purificar
+medicamentos, medicina, fármaco, droga, poción, pócima, antídoto, remedio,  elixir, ungüento, potingue, mejunje, brebaje
+>>>>>>> c61fab4d27a7b5bce3f45b6a4e4694f324c70782
