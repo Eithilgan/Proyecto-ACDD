@@ -1,30 +1,17 @@
-ejercito, hueste, milicia, tropa
-defensa, protección, socorro,
-nacional, territorial, regional, 
-militar, soldado, guerrero, combatiente, miliciano
-regimiento, destacamento, guarnición, tropa, unidad
-cuartel, acantonamiento, acuartelamiento, campamento
-comandante
-armada, flota, escuadra, marina, convoy, flotilla, escuadrilla
-escuadron, batallón, batería
-suboficial, soldado, mandón, marimandón,
-fuerza
-ASMAR
-contraalmirante
-capitan, oficial, jefe, caudillo, guía, conductor
-rescate, liberación,  
-custodia, vigilancia, cuidado, escolta, guardia, amparo, resguardo, salvaguardia, 
-coronel
-aerea
-desminado 
-paz
-FFAA
-CNAD
-explosivo, fulminante, detonante, dinamita, barreno, petardo, cartucho, bomba, munición, pólvora
-CHOD
-vicealmirante
-seguridad
-aeronautica, aviación, aerostación, navegación aérea
-naval, marítimo, náutico, transatlántico, oceánico
-DGAC
-FACH
+ejercito, hueste, milicia, tropa, defensa, protección, socorro, nacional, territorial, regional, 
+militar, soldado, guerrero, combatiente, miliciano, regimiento, destacamento, guarnición, tropa, unidad
+cuartel, acantonamiento, acuartelamiento, campamento, comandante, armada, flota, escuadra, marina, convoy,
+flotilla, escuadrilla, escuadron, batallón, batería, suboficial, soldado, mandón, marimandón,fuerza
+ASMAR,contraalmirante,capitan, oficial, jefe, caudillo, guía, conductor,rescate, liberación,  
+custodia, vigilancia, cuidado, escolta, guardia, amparo, resguardo, salvaguardia, coronel,aerea
+desminado, paz, FFAA, CNAD, explosivo, fulminante, detonante, dinamita, barreno, petardo,
+cartucho, bomba, munición, pólvora, CHOD, vicealmirante, seguridad, aeronautica, aviación, aerostación,
+navegación, aérea, naval, marítimo, náutico, transatlántico, oceánico, DGAC, FACH, guerra,
+contienda, conflicto, cruzada, guerrilla, combate, pelea, lucha, enfrentamiento, refriega, ofensiva, 
+
+hostilidades, armisticio, tregua, pacto, convenio, tratado, acuerdo, arreglo, negociación, conversación,
+mediación, paz, reconciliación, concordato, compromiso, ajuste, concierto, Marina, armada, flota,
+escuadra, FACH, campamentos, acampamiento, acantonamiento, cuartel, alojamiento, vivaque, refugio, militares,
+soldado, guerrero, combatiente, miliciano, Carabinero, fusilero, soldado, vigilante, guardia, desfile
+heroico, 
+
