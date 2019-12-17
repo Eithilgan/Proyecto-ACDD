@@ -62,6 +62,7 @@ def obtener_top(boletin):
     tema=[]
     score=[]
     boletines=[]
+    total = 0
     for y in keys:
         resultados = (obtener_score(keys,contar,data,boletin,y))
         boletines.append(resultados[0])
@@ -76,10 +77,12 @@ def obtener_top(boletin):
     boletindef = (boletines[score.index(max(score))]) #busco la posicion del boletin al cual corresponde el valor mas alto
     print("la clasificacion para el boletin",boletindef,"es =",temadef)
     print("-----------------------------------------------------------------")
+    for i in range(len(score)):
+        total = total+score[i]
+    totalpalabras=max(score),'de',total
     updatePrediccion(boletindef,temadef)
-
+    updateScore(boletindef,str(totalpalabras))
     
-
 def clasificar():
     for y in boletines:
         obtener_top(y)
