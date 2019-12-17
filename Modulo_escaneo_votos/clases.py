@@ -39,18 +39,20 @@ class Sesion:
 			"tipo":self.tipo
 		}
 class Boletin:
-	def __init__(self,idboletin,nombre,prediccion,contenido):
+	def __init__(self,idboletin,nombre,prediccion,contenido,score):
 		self.idboletin = idboletin
 		self.nombre = nombre
 		self.prediccion = prediccion
 		self.contenido = contenido
+		self.score = score
 
 	def addColeccion(self):
 		return {
 			"idboletin":self.idboletin,
 			"nombre":self.nombre,
 			"prediccion":self.prediccion,
-			"contenido":self.contenido
+			"contenido":self.contenido,
+			"score":self.score
 		}
 class Votaciones:
 	def __init__(self,idvotaciones,boletin,resultado,a_favor,en_contra,abstencion,dispensado):

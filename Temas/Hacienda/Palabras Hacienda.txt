@@ -1,43 +1,15 @@
-hacienda
-comercial
-mercantil
-mercante
-comercio
-negocio
-trato
-contratación
-transacción
-monetaria
-inversión
-gastos
-pavimentación
-obras
-señalización
-demarcación
-paisajismo
-impuesto 
-valor
-financiamiento
-empresarial
-financiero
-mercado
-cartera
-rentas fiscales
-recaudación
-banco
-bancoestado
-casa de moneda
-dirección de compras 
-contratación pública
-chilecompra
-dirección de presupuestos
-dirección nacional del servicio civil
-superintendencia de bancos 
-instituciones financieras
-superintendencia de casinos de juegos
-superintendencia de valores y seguros
-servicio de impuestos internos
-sii
-servicio nacional de aduanas
-tesorería general de la república
-unidad de análisis financiero
+hacienda, comercial, mercantil, mercante, comercio, especulativo, transposición, alteración, cambio, construcción, 
+edificación, arreglo, beneficio, establecimiento, despacho, dividendo, comisión, ganancia, fruto, rendimiento,
+lucro, provecho, producto, manufactura, género, elaboración, resultado, interés, renta, utilidad,
+producción, rentabilidad, rédito, alquiler, riqueza, negocio, trato, contratación, transacción, monetaria,
+inversión, gastos, pavimentación, obras, señalización, demarcación, paisajismo, impuesto , valor, precio,
+coste, importe, valoración, tasación, legalidad, estimación, financiamiento, empresarial, financiero, mercado,
+cartera, rentas fiscales, recaudación, banco, bancoestado, casa de moneda, dirección de compras , contratación pública, chilecompra, dirección de presupuestos,
+dirección nacional del servicio civil, superintendencia de bancos, instituciones financieras, superintendencia de casinos de juegos, superintendencia de valores y seguros, servicio de impuestos internos, sii, servicio nacional de aduanas, tesorería general de la república, unidad de análisis financiero, 
+banquero, especulador, economista, capitalista, inversionista, bienes, reservas, miseria, estrechez, frugalidad,
+dispendio, moneda, plata, parné, fondo, recurso, capital, caudal, billete, patrimonio,
+casinos, aduanas, financiero, bolsa, valores, mercantilista, administración, feria, negociar, comerciar,
+traficar, despacho, oficina, fielato, frontera, registro, inspección, exploración, saldo, dineral,
+patrimonio, primario, secundario, explotación, renta, propiedad, interés, mayúscula, corte, versal,
+peculio, pertenenecias, caridad, dote, acervo, medios, heredad, rendimiento, posesiones, tributo,
+fortuna, erario, fisco, poderío, tierra, estancia, predio, alquería, casal, medio
