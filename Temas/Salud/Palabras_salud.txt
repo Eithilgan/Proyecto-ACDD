@@ -1,6 +1,42 @@
-paciente,prevencion,enfermedad,cura,sanitaria,veneno,daños,epidemia,
-respiratoria,medicos,doctores,enfermeros,isapres,maternidad,embarazo,vida,asistencial,
-clinica,urgencia,pacientes,salud,mortalidad,natalidad,inmunizaciones,
-inmunologico,dental,respiratorio,obesidad,nutrientes,saludable,medicina,
-rehabilitacion,condicion,mental,enfermeria,diagnostico,terapeutico,ambulancia,cirujano,cirujia,
-cuarentena,transfusion,esterilizados,medicamentos,
+paciente, tolerante, sosegado, calmoso, pacientes
+prevencion, previsión, preparación, disposición,
+enfermedad, afección, dolencia, indisposición, padecimiento, trastorno,
+cura, curación, tratamiento, medicación, terapia
+sanitaria, higiénico, sano, saludable,
+veneno, tóxico, bebedizo, ponzoña,
+daños, deterioro, estropicio, perjuicio
+epidemia, peste, contagio, plaga
+respiratoria, torácico, pectoral
+medicos, galeno, doctor, facultativo,
+doctores, matasanos, cirujano
+enfermeros, enfermero, enfermera, enfermeras
+isapres, isapre
+maternidad, concepción, engendramiento, gravidez
+embarazo, gestación, preñez, gravidez
+vida, existencia, subsistencia, supervivencia
+asistencial, ayuda, socorro, auxilio,
+clinica, hospital,consultorio, dispensario
+urgencia,prisa, premura, apremio
+salud, salubridad, sanidad, lozanía,
+mortalidad, mortandad, muerte, aniquilación
+natalidad, demografía, nacimientos
+inmunizaciones, prevención, vacunación, inmunologico,
+dental, odontológico, estomatológico, bucal
+nutrientes,
+saludable, sano, vigoroso, fuerte
+medicina, medicamento, específico, fármaco
+rehabilitacion, restauración, reparación, enmienda
+condicion,
+mental,
+enfermeria, botiquín, sala de curas,
+diagnostico, diagnosis,
+terapeutico, curativo, rehabilitador
+ambulancia,
+cirujano,
+cirujia,
+cuarentena, aislamiento
+transfusion, trasvase, inyección
+esterilizados, desinfectar, higienizar, purificar
+medicamentos, medicina, fármaco, droga, antidoto
+
+

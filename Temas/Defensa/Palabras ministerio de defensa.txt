@@ -1,40 +1,30 @@
-1  ejercito
-2  defensa
-3  nacional
-4  militar
-5  soldado
-6  regimiento
-7  cuartel
-8  comandante
-9  armada
-10 escuadron
-11 suboficial
-12 fuerza
-13 ASMAR
-14 contraalmirante
-15 capitan
-16 rescate 
-17 custodia
-18 coronel
-19 aerea
-20 desminado 
-21 paz
-22 servicio
-23 FFAA
-24 CNAD
-25 explosivo
-26 mina
-27 CHOD
-28 vicealmirante
-29 seguridad
-30 aeronautica
-31 naval
-32 DGAC
-33 FACH
-34 aviacion
-35 
-36
-37
-38
-39
-40
+ejercito, hueste, milicia, tropa
+defensa, protección, socorro,
+nacional, territorial, regional, 
+militar, soldado, guerrero, combatiente, miliciano
+regimiento, destacamento, guarnición, tropa, unidad
+cuartel, acantonamiento, acuartelamiento, campamento
+comandante
+armada, flota, escuadra, marina, convoy, flotilla, escuadrilla
+escuadron, batallón, batería
+suboficial, soldado, mandón, marimandón,
+fuerza
+ASMAR
+contraalmirante
+capitan, oficial, jefe, caudillo, guía, conductor
+rescate, liberación,  
+custodia, vigilancia, cuidado, escolta, guardia, amparo, resguardo, salvaguardia, 
+coronel
+aerea
+desminado 
+paz
+FFAA
+CNAD
+explosivo, fulminante, detonante, dinamita, barreno, petardo, cartucho, bomba, munición, pólvora
+CHOD
+vicealmirante
+seguridad
+aeronautica, aviación, aerostación, navegación aérea
+naval, marítimo, náutico, transatlántico, oceánico
+DGAC
+FACH
