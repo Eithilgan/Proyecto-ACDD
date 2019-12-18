@@ -1,32 +1,30 @@
-riqueza, capital, caudal, fondos, fortuna, posesiones, haberes, intereses, ingresos, acervo, 
+riqueza, capital, caudal, fondos, fortuna, posesiones, haberes, intereses, ingresos, 
 beneficios, heredad, herencia, medios, patrimonio, peculio, pertenencias, posibles,recursos, rentas, 
 dinero, hacienda,patrio, territorial, regional, doméstico, interior, examinar, inspeccionar, investigar,
-observar, explorar, contemplar, tantear, considerar, mirar, ver, vigilar,gobernar, dirigir, 
-regir, regentar, apoderar, mandar, tutelar, guiar, tramitar, diligenciar, ejecutar, dirigir,
+observar, explorar, contemplar, tantear, considerar, mirar, ver, vigilar,entorno, 
+regir, regentar, apoderar, mandar, tutelar, guiar, tramitar, diligenciar, ejecutar,
 administrar, resolver, encargar, mandar, negociar,herencia, dote, fortuna, bienes, propiedades, 
-rentas, caudal, acervo, medios, heredad, capital, patrimonio, monetario, crematístico, hacendístico,
+rentas,medios, heredad, capital, patrimonio, monetario, crematístico, hacendístico,
 posesión, pertenencia, dominio, usufructo, goce, disfrute, poder, participación,origen, principio,
-causa, motivo, fundamento, razón, base, inspección, observación, examen, comprobación, registro,
-crecimiento, aumento, acrecentamiento, incremento, adelanto,cooperar, colaborar, ayudar, subvencionar, sufragar, 
+causa, motivo, fundamento, razón, base, inspección, observación, examen, comprobación,
+recimiento, aumento, acrecentamiento, incremento, adelanto,cooperar, colaborar, ayudar, 
 
 
-asistir, auxiliar, coadyuvar, aportar, circunscripción, comarca, demarcación, distrito, estado, región,
-nación, país, continente,organismo, empresa, firma, compañía, consorcio, corporación, sociedad,
-asociación,reglamentar, reglar, normalizar, regularizar, organizar, legalizar, tenencia, toma, detentación,
-usufructo, disfrute, goce, compra, adquisición,colonizador, emigrante, posesión, pertenencia, dominio,
+asistir,circunscripción,distrito, estado, región,nación, país, continente,organismo, empresa, firma,
+compañía, consorcio, corporación, sociedad,sociación,reglamentar, reglar, normalizar, regularizar, organizar,
+legalizar, tenencia, toma, detentación,usufructo,compra, adquisición,colonizador, emigrante, posesión, pertenencia, dominio,
 usufructo, goce, disfrute, poder, participación,hacienda, finca, latifundio, tierra, renta,
 capital, legitimidad, licitud, derecho, justicia, ley, vigencia, rectitud, moralidad,legalidad,
-inspector, interventor, inquisidor, fiscalizador,universo, mundo, globo, planeta, orbe,conducir,
-guiar, gobernar, mandar, regir, poblador, residente, ciudadano, súbdito, vecino, avecindado,
-morador,arrendatario, inquilino, ocupante,aborigen, natural, oriundo, autóctono, indígena, nativo,
-coterráneo, compatriota,burgués, provinciano, aldeano, pueblerino, lugareño,hacendado, terrateniente, ranchero,
 
-protección, defensa, subsistencia, custodia, mantenimiento, manutención, preservación,detención, parada, inmovilización,
-estancamiento,clínica, dispensario, ambulatorio, tenencia, toma, detentación, usufructo, disfrute, goce, 
-compra, adquisición,quehacer, actividad, labor, trabajo, tarea, obligación, cometido, empleo, cargo,
-aprovechamiento, beneficio, utilización, rendimiento, obtención,derechista, tradicionalista, continuista, carca,conservacion,
-abuso, coacción, contención, dictadura, dominación, sometimiento, opresión, tiranía, yugo, sujeción,
-freno,pertenencia, posesión, potestad, propiedad, ámbito, atmósfera, campo, entorno.
+inspector, interventor, inquisidor, fiscalizador,universo, mundo,planeta, orbe,
+guiar, gobernar, mandar, regir, poblador, residente, ciudadano, súbdito, vecino, avecindado,
+morador,arrendatario, inquilino, ocupante,aborigen,indígena, nativo,coterráneo, 
+burgués, provinciano, aldeano, pueblerino, lugareño,hacendado, terrateniente, ranchero,
+
+subsistencia, custodia,compra, adquisición, actividad, labor, trabajo, tarea, obligación,empleo, cargo,
+aprovechamiento, beneficio, utilización, rendimiento, obtención,derechista, tradicionalista, continuista, carca,conservación,
+abuso, coacción, contención,dominación, sometimiento, opresión, tiranía,sujeción,
+freno,pertenencia, posesión, potestad, propiedad, ámbito, atmósfera, campo,terreno.
 
 
 
