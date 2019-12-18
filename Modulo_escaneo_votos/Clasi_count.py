@@ -35,7 +35,7 @@ adverbs = ['no','si','sí']
 articles = ['el','la','los','las','un','una','unos','unas','este','esta','estos','estas','aquel','aquella','aquellos','aquellas','su','sus']
 aux_verbs = ['he','has','ha','hemos','habéis','han','había','habías','habíamos','habíais','habían']
 
-#(temas,boletines,palabras_claves,recorrido_for)
+#(list.tema||||list.boletines||||,diccionario||||Discusiones||||TEMA recorrido for)
 def obtener_score(llaves,documentos,data,boletines,palabras):
     vectorizer = CountVectorizer(stop_words=prepositions+prep_alike+adverbs+articles+aux_verbs)
 
@@ -59,15 +59,15 @@ def obtener_score(llaves,documentos,data,boletines,palabras):
     return boletines,palabras,suma
 
 def obtener_top(boletin):
-    tema=[]
-    score=[]
+    tema=[]    #recibe cada tema, score, y boletin y los separa en los arreglos
+    score=[]   #pero cada correspondiente en la misma posicion.
     boletines=[]
     total = 0
-    for y in keys:
-        resultados = (obtener_score(keys,contar,data,boletin,y))
-        boletines.append(resultados[0])
-        tema.append(resultados[1])
-        score.append(resultados[2])
+    for y in keys: #keys son los temas
+        resultados = (obtener_score(keys,contar,data,boletin,y)) # resultado de obtener_score
+        boletines.append(resultados[0]) #posicion 0 de resultados
+        tema.append(resultados[1])     #posicion 1 de resultados
+        score.append(resultados[2])   #posicion 2 de resultados
             
     #print(tema)
     #print(score)
@@ -84,6 +84,6 @@ def obtener_top(boletin):
     updateScore(boletindef,str(totalpalabras))
     
 def clasificar():
-    for y in boletines:
-        obtener_top(y)
+    for y in boletines: #realizar el proceso de clasificacion y almaccenado
+        obtener_top(y) #por cada boletin existente en la carpeta
 clasificar()      
