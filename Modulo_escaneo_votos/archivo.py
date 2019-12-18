@@ -1,6 +1,6 @@
 from includes import * ; from sopa import    * ; from legislatura import * ; from sesiones import *
 from proyecto import * ; from boletin import * ; from votaciones import  * ; from detalle import  *
-from dialogo import  * ; from bs4 import BeautifulSoup 
+from dialogo import  * ; from bs4 import BeautifulSoup; import os
 
 # ------------------------------------------ EXPLICACION ------------------------------------------
 # Esta función no retorna cosa alguna. Se encarga de crear un archivo con la discusión parlamentaria asociada a un id de Boletin
@@ -28,15 +28,39 @@ def creaFile(idboletin):
     aSesion = getSesionesById(idboletin)
     for i in range(0,len(aSesion),1):
         aProyectos = getProyecto(aSesion[i])
-        if(aProyectos!=None):
-            for j in range(0,len(aProyectos),1):
-                string = str(aProyectos[j])
-                if(idboletin in string):
-                    cadena   = getDialogo(aProyectos[j])
-                    if(cadena==None):
-                        return
-                    namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
-                    nfh      = open(namefile+".txt","w")
-                    nfh.write(cadena)
-                    print("- El archivo ",namefile+".txt"," fue creado exitosamente")
-                   
+        if(aProyectos is None):
+            return "None"
+        for j in range(0,len(aProyectos),1):
+            string = str(aProyectos[j])
+            if(idboletin in string):
+                cadena   = getDialogo(aProyectos[j])
+                #namefile = "boletin "+idboletin+" discutido en la sesion "+aSesion[i]
+                namefile  = idboletin
+                Directorio = "Sesiones2/"
+                if not os.path.exists(Directorio+aSesion[i]):
+                    os.makedirs(Directorio+aSesion[i])
+
+                if (os.path.exists(Directorio+aSesion[i]+"/"+namefile+".txt")):
+                    return None
+                else:
+                    nfh      = open(Directorio+aSesion[i]+"/"+namefile+".txt","w")
+                nfh.write(cadena)
+                print("- El archivo ",namefile+".txt"," fue creado exitosamente")
+
+
+                namefile  = aSesion[i]
+                Directorio = "Boletines/"
+                if not os.path.exists(Directorio+idboletin):
+                    os.makedirs(Directorio+idboletin)
+
+                if (os.path.exists(Directorio+idboletin+"/"+namefile+".txt")):
+                    return None
+                else:
+                    nfh      = open(Directorio+idboletin+"/"+namefile+".txt","w")
+                nfh.write(cadena)
+                print("- El archivo ",namefile+".txt"," fue creado exitosamente")
+
+
+
+
+                return cadena

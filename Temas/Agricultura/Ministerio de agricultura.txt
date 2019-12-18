@@ -1,0 +1,22 @@
+laboreo, labranza, cultivo, agronomía, ganado, manada, grey, rebaño, hato, vacada, 
+cabaña, manufactura, elaboración, producción, empresa, explotación, fabricación, habilidad, destreza, 
+maña, maestría, oficio, población, repoblación, migración, 
+emigración, inmigración, comida, comestible, manjar, sustento, vianda, yantar, colación, refrigerio, 
+bocado, piscolabis, tentempié, pitanza, plato, puchero, ración, maná, manduca, capturar,
+atrapar, cazar, agarrar, apresar, aldeano, lugareño, 
+ahorro, hacienda, bienes, reservas, riqueza, renta,
+miseria, escasez, estrechez, frugalidad, creador, fabricante, industrial, financiador, trabajador, obrero, 
+asalariado, empleado, crecimiento, aumento, acrecentamiento, incremento, adelanto,
+campestre, agrario, rústico, pastoril, bucólico, apacible, rural.
+
+arboricultura, líquido, fluido, linfa, caldo, jugo, zumo, superficie, pavimentó, 
+solado, firme, adoquinado, empedrado, terreno, solar, territorio, patria, pueblo, cuna,
+asiento, basé, selvático, boscoso, agreste, labrador, labriego, cultivador, 
+granjero, hortelano, horticultor, plantador, campesino, payés, colono, agricultor, sanidad,
+vegetal, árbol, arbusto, mata, pisó, nivel, altura, factoría, fábrica, industria, porté, apariencia, figura.
+siembra sementera, sembrado, dispersión, cultivos, hortaliza, hortalizas,
+plantío, vergel, abundancia, copiosidad, acopio, profusión, abono, estiércol, fertilizante, abonadora, tierra, suelo
+vegetales, verduras, verdura, legumbre, legumbres, fruta, frutos, fruto, sequia, sequedad, agostamiento, herramientas,
+maquinaria, reses, animales, arado, labrar, roturar, remover, barbechera, producción, regadío, plantación, leche, lácteos,
+productos
+

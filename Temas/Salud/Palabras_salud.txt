@@ -1,0 +1,22 @@
+paciente, tolerante, sosegado, calmoso, pacientes, prevención, previsión, preparación, disposición,
+enfermedad, afección, dolencia, indisposición, padecimiento, trastorno,
+cura, curación, tratamiento, medicación, terapia, sanitaria, higiénico,
+veneno, tóxico, bebedizo, ponzoña, daños, deterioro, estropicio, perjuicio
+epidemia, peste, contagio, plaga, respiratoria, torácico, pectoral
+médicos, galeno, doctor, facultativo, doctores, matasanos,
+enfermeros, enfermero, enfermera, enfermeras, ISAPRES, Isapre
+maternidad, concepción, engendramiento, embarazo, gestación, preñez, gravidez
+vida, existencia, subsistencia, supervivencia, asistencial, ayuda, socorro, auxilio,
+clínica, hospital, consultorio, dispensario, urgencia, prisa, premura, apremio
+salud, salubridad, sanidad, lozanía, mortalidad, mortandad, muerte, aniquilación
+natalidad, demografía, nacimientos, inmunizaciones, prevención, vacunación, inmunológico,
+dental, odontológico, estomatológico, bucal, nutrientes, saludable, sano, vigoroso, fuerte,
+medicamento, específico, rehabilitación, restauración, reparación, enmienda
+condición, mental, enfermería, botiquín, sala curas, diagnostico, diagnosis,
+terapéutico, curativo, rehabilitador, ambulancia, cirujano, cirugía,
+cuarentena, aislamiento, transfusión, trasvase, inyección, esterilizados, desinfectar, higienizar, purificar
+medicamentos, medicina, fármaco, droga, antídoto, crónicas, hipertensión, inflamación, padecen, biológicos   
+sintoma, sintomas, diagnósticos, causas, remedio, laboratorios, farmacias, farmacia, vidas, cuerpo, bienestar,
+recuperacion, sanar, sanacion, naturales
+
+

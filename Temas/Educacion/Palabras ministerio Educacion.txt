@@ -1,0 +1,27 @@
+educación, Profesor, educador, instructor, maestro, pedagogo, preceptor, monitor, catedrático, doctor, consejero
+estudiante, educando, oyente, párvulo, seguidor
+aula, clase, sala, anfiteatro, salón, cámara, recinto
+aprender, instruirse, estudiar, educarse, aplicarse, asimilarse, cultivarse, cursar, empollar, formar,  practicar, profundizar, repasar, ejercitarse
+enseñar, instruir, adiestrar, educar, criar, adoctrinar, ilustrar, alfabetizar, iniciar, explicar, aleccionar, preparar
+conservatorio,
+universidad, seminario, cátedra, claustro, paraninfo, enseñanza, educación, práctica, ejercitamiento, amaestramiento, ilustración, didáctica, autodidáctica, lección, noviciado, aplicación, experiencia
+curso, derrotero, desarrollo, trayectoria, dirección, rumbo, destino, itinerario
+beca,
+materia, sustancia, elemento, ingrediente, componente, principio, factor
+privada, 
+publica,
+instrucción, adiestramiento, crianza, aprendizaje, capacitación, magisterio, catequesis
+instituto, academia, centro, escuela, liceo, colegio, facultad, institución
+ejercicio, concurso, oposición, convocatoria
+prueba, ensayo, tanteo, tentativa, verificación, comprobación, examen, estudio, contraste, cata
+rector, superior, director, presidente, regente
+matricula, registro, inscripción, documento, patente, lista,
+alumno, escolar, colegial, discípulo, aprendiz
+notas, calificación, resultado, puntuación,
+números,
+preparación,
+evaluación, valoración, tasación, peritaje, estimación, apreciación
+apoderado, conocimientos, conocimiento, evaluación, evaluaciones, notas, nota, promedio, asignatura, asignaturas,
+ramos, cursos, matemáticas, matemática, historia, física, ciencias sociales, lenguaje comunicación, cuaderno, útiles
+filosofía, clases, alumnos, docente, docentes, formación,
+estudios

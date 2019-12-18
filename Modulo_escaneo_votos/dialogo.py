@@ -23,22 +23,23 @@ from bs4      import BeautifulSoup
 #Luego, Entra en un ciclo While que se encarga de eliminar lo que haya dentro de <     > 
 #Finalmente retorna el string.
 def getDialogo(tagProyecto):
-    print
-    flag2 = True
+    tagProyecto    = str(tagProyecto)
+    tagProyecto    = tagProyecto.split("<br/>")
+    tagProyecto    = "".join(tagProyecto)
+
     try:
-        tagProyecto    = str(tagProyecto)
-        tagProyecto    = tagProyecto.split("<br/>")
-        tagProyecto    = "".join(tagProyecto)
-        tagProyecto    = tagProyecto[:tagProyecto.index("<votacion")]
-        flag = True
-        while(flag==True):
-            try:
-                flag        = True
-                inicio      = tagProyecto.index("<")
-                final       = tagProyecto.index(">")
-                tagProyecto = tagProyecto[:inicio]+tagProyecto[final:][1:]
-            except:
-                flag = False
+        corte = tagProyecto.index("<votacion")
     except:
-        return None
+        corte = tagProyecto.find("</PROYECTO_LEY>")
+    tagProyecto    = tagProyecto[:corte]
+    flag = True
+    while(flag==True):
+        try:
+            flag        = True
+            inicio      = tagProyecto.index("<")
+            final       = tagProyecto.index(">")
+            tagProyecto = tagProyecto[:inicio]+tagProyecto[final:][1:]
+        except:
+            flag = False
     return tagProyecto
+

@@ -17,10 +17,6 @@ def getSesiones(IDLegis):
     aSesion    = [Texto.text.strip() for Texto in bs_sesion.select('id')]
     return aSesion
 
-#######################################################################################################################
-#  ESTE SCRIPT CONTIENE TRES IMPORTANTES FUNCIONES QUE SE UTILIZAN PARA EXTRAER EL TEXTO DE UNA DISCUSIÓN PARLAMENTARIA
-#######################################################################################################################
-
 # Esta funcion retorna un arreglo con IDs de sesiones que están asociadas con un ID de boletin en partiuclar
 # Recibe como parametro un id de boletin, por ejemplo "11571-21"
 # ------------------------------------------ EXPLICACION ------------------------------------------
@@ -36,7 +32,6 @@ def getSesiones(IDLegis):
 #                     Ejemplo: aSesiones = ['3731','3732']
 
 def getSesionesById(idboletin):
-    aSesiones = []
     url = "http://opendata.camara.cl/wscamaradiputados.asmx/getVotaciones_Boletin?prmBoletin="+idboletin
     bs_resultado = soup(url)
     if(bs_resultado.find("votacion")!=None):
@@ -46,5 +41,17 @@ def getSesionesById(idboletin):
             elemento      = elemento.replace("<id>","")
             elemento      = elemento.replace("</id>","")
             aSesiones[i] = elemento
-    print(aSesiones)
     return list(set(aSesiones))
+
+
+def getDataOfSesion(idSesion):
+    url = "http://opendata.congreso.cl/wscamaradiputados.asmx/getSesionDetalle?prmSesionID="+idSesion
+    bs_resultado = soup(url)
+
+    ID         = [Texto.text.strip() for Texto in bs_resultado.select('id')][0]       
+    Numero     = [Texto.text.strip() for Texto in bs_resultado.select('numero')][0]
+    Fecha      = [Texto.text.strip() for Texto in bs_resultado.select('fecha')][0]
+    Termino    = [Texto.text.strip() for Texto in bs_resultado.select('fechatermino')][0]
+    Tipo       = [Texto.text.strip() for Texto in bs_resultado.select('tipo')][0]
+    Estado     = [Texto.text.strip() for Texto in bs_resultado.select('estado')][0]    
+    return [ID,Numero,Fecha,Termino,Tipo,Estado]

@@ -1,0 +1,17 @@
+Energía, fuerza, vigor, potencia, poder, resistencia, vida, intensidad, eólica
+Solar, mecánica, maquinismo, física, cinemática, dinámica, hidrodinámica, termodinámica
+cinética, motriz, fototérmica, cálido, caliente potencial, gravitacional,
+sonora, ruidoso, resonante, vibrante, clamoroso, retumbante, estruendoso, rotundo, espectacular
+acústica, sonoridad, resonancia, sonido eléctrico, electrógeno, galvánico, electrizante, dieléctrico
+química, magnética, imantado, inducido nuclear, atómico, molecular, indivisible, elemental
+radiante, brillante, centelleante, resplandeciente, luminoso hidráulica, lumínica,
+renovable, cambiable, permutable, reemplazable, reformable, sustituible
+planta, factoría, fábrica, industria unidad, naturaleza,
+onda, átomos, partícula, corpúsculo, insignificancia, pequeñez, migaja, pizca, brizna, traza
+electrones, calor, fuego, ardor, ardentía, calidez, combustión, quemazón, conductor,
+watts,CGE,chilectra,
+luz, claridad, luminiscencia, luminosidad, iluminación, fulgor, refulgencia, fosforescencia, incandescencia, resplandor, destello, Emel, chilquinta, luzlinare,luzparral,conafe,edelmag,edecsa,saesa,frontel,edelaysen,
+copelec, cec, coopelan, codiner, elecoop, crell, coelcha, socopepa, cooprel, emelca, coopersol
+electricidad, alimentación, eléctrica, termoeléctrica, panel, solar, fotovoltaico, fotovoltaica, voltaje, represa, represas
+turbina, turbinas, iluminaria, medidores, medidor, sernac, sec, circuito, circuitos, liniero, tendido, poste, postes,
+cables, cable, linea, lineas
