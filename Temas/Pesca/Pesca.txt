@@ -1,21 +1,21 @@
-captura, pesquería, redada,pescado,brea, alquitrán, resina,líquido, fluido, linfa,
-caldo, jugo, zumo,marino, náutico,marinero, marino,malla, urdimbre, trama, 
-tejido,aparejo, almadraba, jábega, sardina,trampa, ardid, celada, estratagema, artimaña, 
-engaño,organización, sistema, servicio, distribución,camaron ,langostino,pescador,caña, bobina,
-canilla, devanadera, rollo, huso, torno, tambor,carrete,caladeros,fabricante, empresario,
-productor, constructor, creador, ejecutor,fabril, manufacturero, técnico, productivo,artesanal,sustentable.
-navío, nave, barco, buque, nao, bajel,aleta, provisión, repuesto, almacenamiento,
-atun, fondos,restricciones, limitaciones, cortapisas, salvedades, reticencias,cautela,salvaje,
-prudencia, sigilo, circunspección,embarcaciones,acuicultura,mijo,ahogo, milla,aborigen, oriundo, 
-autóctono, nativo, natural, originario,indigena,capturar,hondo, insondable, abisal, abismal, 
+captura, pesquería, redada, pescado, brea, alquitrán, resina, líquido, fluido, linfa,
+caldo, jugo, zumo, náutico, marinero, marino, malla, urdimbre, trama, 
+tejido, aparejó, almadraba, jábega, sardina, trampa, ardid, celada, estratagema, artimaña, 
+engaño, organización, servicio, distribución, camarón, langostino, caña, bobina,
+canilla, devanadera, rollo, huso, torno, tambor, carrete, caladeros, fabricante, empresario,
+productor, constructor, creador, ejecutor, fabril, manufacturero, técnico, productivo, artesanal, sustentable.
+navío, nave, barco, buque, nao, bajel, aleta, provisión, repuesto, almacenamiento,
+atún, fondos, restricciones, limitaciones, cortapisas, salvedades, reticencias, cautela, salvaje,
+prudencia, sigilo, circunspección, embarcaciones, acuicultura, mijo, ahogo, milla, aborigen, oriundo, 
+autóctono, nativo, natural, originario, indígena, capturar, insondable, abisal, abismal, 
 
 
-hundido, recóndito, bajo, alto, vasto, amplio,mariscos,  mariscadores, hondo,intenso, 
-arrastrar,cultivo,  salada, temperatura,polvillo, molienda, polvo, cernido, cerco, fécula, 
-maritimo, fariña, gofio,toneladas,procesado,rio,agua,mar,pesca,nylon,
-cuerda,ansuelo,pescador,salmones,jauria,especies,clase, orden, familia, tipo, 
-variedad,armadores, grupo, género, ralea, cuerda,pesquera, ejemplar,producto,huevos, mercancía,jauria.
-salmonera, huevos, salmoneras
+hundido, recóndito, bajo, alto, vasto, amplio, mariscos, mariscadores, hondo, intensó, 
+arrastrar, cultivó, salada, temperatura, polvillo, molienda, polvo, cernido, cerco, fécula, 
+marítimo, fariña, gofio, toneladas, procesado, río, agua, mar, pesca, nylon,
+anzuelo, pescador, salmones, jauría, especies, clase, orden, familia, tipo, 
+variedad, armadores, grupo, género, ralea, cuerda, pesquera, ejemplar, producto, mercancía,
+salmonera, huevos, salmoneras, pesquero, terminal, regulación,
 
 
 

@@ -1,27 +1,26 @@
 medio, sector, estado,
 conservación, tutela,
-sombra,calor, refugio, mantenimiento,
+sombra, calor, refugio, mantenimiento,
 manutención, preservación, subterfugio,
-previsión,cambiable, permutable, reemplazable, reformable, sustituible,atmósfera, temperatura, tiempo,ambiente, 
-superficie, extensión,  campo, dominio, 
-tierra, parcela, comarca,distrito, término,custodia,sonido, zumbido, crujido, chasquido, estruendo, fragor, estampido,
-detonación, estallido,estrépito, estridencia, fragancia, perfume, aroma, esencia, fetidez, miasma, 
+previsión, cambiable, permutable, reemplazable, reformable, sustituible, atmósfera, temperatura, tiempo, ambiente, 
+superficie, extensión, campo, dominio, 
+tierra, distrito, término, custodia, sonido, zumbido, crujido, chasquido, estruendo, fragor, estampido,
+detonación, estallido, estrépito, estridencia, fragancia, perfume, aroma, esencia, fetidez, miasma, 
 
 
-peste,pestilencia, tufarada, hediondez, tufo, hedor,polución, contagio, corrupción, infección, inoculación, 
-contaminacion, predicción, chorreante, mojado, empapado, inundado, rociado, acuoso, calado, bañado,
-chapoteado, regado, aguado, duchado, húmido,biodiversidad, conservar, proteger, cuidar, guardar,
+peste, pestilencia, tufarada, hediondez, tufo, hedor, polución, contagio, corrupción, infección, inoculación, 
+contaminación, predicción, chorreante, mojado, empapado, inundado, rociado, acuoso, calado, bañado,
+chapoteado, regado, aguado, duchado, húmido, biodiversidad, conservar, proteger, cuidar, guardar,
 resguardar, defender, amparar, asegurar, 
-prevención, acondicionamiento, gestación, medida, intento, preliminar, preámbulo, comienzo, aparato, descontaminacion,aéreo,
-etéreo, celeste, espacial, meteorológico, trámite, diligencia, papeleo, ,ciudad, urbe, metrópoli, villa, pueblo, localidad, aldea, lugar,
-preparación,disposición, organización, preparativos,aclimatarse, adaptarse, acostumbrarse,región,territorio,
-demarcación, circunscripción, ámbito,espacio, entorno, terreno, zona, hábitat, 
+prevención, acondicionamiento, gestación, medida, intento, preliminar, preámbulo, comienzo, aparato, descontaminación, aéreo,
+etéreo, celeste, espacial, meteorológico, trámite, diligencia, papeleo, ciudad, urbe, metrópoli, villa, pueblo, localidad, aldea, lugar,
+preparación, disposición, organización, preparativos, aclimatarse, adaptarse, acostumbrarse,
+demarcación, circunscripción, ámbito, espació, entorno, terreno, zona, hábitat, 
 
-defendible, sostenible, razonable,ozono, grafito, guacero, chaparrón, chubasco, precipitación, borrasca,
+defendible, sostenible, razonable, ozonó, grafito, guacero, chaparrón, chubasco, precipitación, borrasca,
 tormenta, tempestad, tromba, diluvio, calabobos, sirimiri, orvallo, fuego, ardor, ardentía,
-bochorno, calorina, canícula, calidez, calina, combustión, quemazón, incandescencia,viento, brisa,
-soplo, aireación, aireo, oreo, ventilación, corriente,universo, mundo, globo, planeta, orbe.
-
+bochorno, calorina, canícula, calidez, calina, combustión, quemazón, incandescencia, viento, brisa,
+soplo, aireación, aireo, oreo, ventilación, mundo, globo, planeta, orbe. contaminante, contaminantes
 
 
 
