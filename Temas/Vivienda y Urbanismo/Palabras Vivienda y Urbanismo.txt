@@ -1,26 +1,15 @@
-apartamento, piso, vivienda, alojamiento, buhardilla, estudio
-piso, planta, nivel, estrato
-domicilio, hogar, residencia, ubicación, localización, vivienda, casa
-edificación, construcción, obra, edificio, fábrica, inmueble, urbanización
-bloque,
-habitáculo, habitación, hábitat
-morada, domicilio, hogar, residencia, vivienda, casa
-edificio, inmueble, casa, vivienda, obra, bloque, finca, construcción, edificación, fábrica, 
-casa, domicilio, hogar, vivienda, morada, residencia, piso, habitación, lar
-urbanismo, desarrollo, planificación, urbanización
-crecimiento, progresión, subida, aumento
-acrecentamiento, amplificación, 
-progreso,
-cimentación,
-
-edificio,
-fábrica,
-inmueble, bloque, edificación, edificio, finca
-obra, trabajo, faena, tarea, labor, quehacer, ejercicio
-vivir,habitar, morar, parar, residir, albergarse, establecerse, asentarse
-urbano,ciudadano, civil, cívico, metropolitano, municipal
-rural, campestre, agrario, rústico, pastoril, agreste, campesino, bucólico, labriego, apacible
-barrio, barriada, distrito, arrabal, suburbio, ciudadela, ensanche, alfoz, extrarradio, intramuros, judería, morería,
-campos, terreno, labrantío, pradera, pradería, prado, sembrado, dehesa, huerta
-deportivo,
-hospital,
+apartamento, alojamiento, buhardilla, estudio, planta, nivel, estrato, domicilio, ubicación, localización, 
+construcción, obra, edificio, inmueble, urbanización, sección, habitáculo, habitación, hábitat, morada,
+domicilio, hogar, residencia, casa, obra, bloque, finca, construcción, edificación, fábrica, domicilio,
+hogar, vivienda, morada, nido, piso, habitación, urbanismo, desarrollo, planificación, crecimiento,
+progresión, subida, aumento, acrecentamiento, amplificación, progreso, cimentación, dependencia, finca, sucursal,
+obra, trabajo, faena, tarea, labor, quehacer, ejercicio, vivir, habitar, morar, 
+parar, residir, albergarse, establecerse, asentarse, urbano, ciudadano, civil, cívico, metropolitano,
+municipal, rural, campestre, agrario, rústico, pastoril, agreste, campesino, bucólico, labriego,
+apacible ,barrio, barriada, distrito, arrabal, suburbio, ciudadela, ensanche, alfoz, extrarradio, 
+intramuros, judería, morería, campos, terreno, labrantío, pradera, prado, sembrado, dehesa, 
+huerta, deportivo, hospital, departamento, división, bienes, mansión, lar, estancia, palacio, 
+clínica, policlínica, terruño, predio, hacienda, propiedad, posesión, familia, linaje, sociedad, 
+razón, social, firma, constructora, plano, alquilar, dirección, aposento, asilo, sitio,
+pavimentación, arquitectura, ingeniero, demolición, ciudades, barrios, comunas, calidad, urbanizar, territorio,
+subsidio, campamentos, catastro, ciclovías, radicación, dueño, habitacional, condominios, predial, densificación
